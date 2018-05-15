@@ -1,0 +1,2295 @@
+Converting GML script: ${project_dir}\scripts\DebugRunAction_scr\DebugRunAction_scr.gml
+Converted description /// @description DebugRunAction_scr(action_map)/// @param action_map
+
+Converting GML script: ${project_dir}\scripts\DebugRegisterAction_scr\DebugRegisterAction_scr.gml
+Converted description /// @description DebugRegisterAction_scr(button, buttonPressType, actionScript, actionDesc, [optional] actionArgs)/// @param button
+/// @param  buttonPressType
+/// @param  actionScript
+/// @param  actionDesc
+/// @param  [optional] actionArgs
+
+Converting GML script: ${project_dir}\scripts\DebugSetPressMap_scr\DebugSetPressMap_scr.gml
+Converted description /// @description DebugSetPressMap_scr(pressMap, value [true or false], [optional] allButThis)/// @param pressMap
+/// @param  value [true or false]
+/// @param  [optional] allButThis
+
+Converting GML script: ${project_dir}\scripts\DebugCreatePlayer_scr\DebugCreatePlayer_scr.gml
+Converted description /// @description DebugCreatePlayer_scr(playerNumber [non-zero])/// @param playerNumber [non-zero]
+
+Converting GML script: ${project_dir}\scripts\DebugAddGameToGameList_scr\DebugAddGameToGameList_scr.gml
+Converted description /// @description DebugAddGameToGameList_scr()
+
+Converting GML script: ${project_dir}\scripts\DebugGoToTestRoom_scr\DebugGoToTestRoom_scr.gml
+Converted description /// @description  DebugGoToTestRoom_scr()
+
+Converting GML script: ${project_dir}\scripts\DebugBuildDebuggerList_scr\DebugBuildDebuggerList_scr.gml
+Converted description /// @description DebugBuildDebuggerList_scr()
+
+Converting GML script: ${project_dir}\scripts\DebuggerGoToTestRoom\DebuggerGoToTestRoom.gml
+Converted description /// @description DebuggerGoToTestRoom_scr
+
+Converting GML script: ${project_dir}\scripts\DebuggerCreateServer\DebuggerCreateServer.gml
+Converted description /// @description DebuggerCreateServer
+
+Converting GML script: ${project_dir}\scripts\DebuggerCreateClient\DebuggerCreateClient.gml
+Converted description /// @description DebuggerCreateClient()
+
+Converting GML script: ${project_dir}\scripts\PlayerStatsGetDamage_scr\PlayerStatsGetDamage_scr.gml
+Converted description /// @description PlayerStatsGetDamage_scr(playerInstance)/// @param playerInstance
+
+Converting GML script: ${project_dir}\scripts\PlayerGetStatsProjectileNumber_scr\PlayerGetStatsProjectileNumber_scr.gml
+Converted description /// @description PlayerGetStatsProjectileNumber_scr(playerInstance)/// @param playerInstance
+
+Converting GML script: ${project_dir}\scripts\PlayerGetStatsROF_scr\PlayerGetStatsROF_scr.gml
+Converted description /// @description PlayerGetStatsROF_scr(playerInstance)/// @param playerInstance
+
+Converting GML script: ${project_dir}\scripts\PlayerGetStats_scr\PlayerGetStats_scr.gml
+Converted description /// @description PlayerGetStats_scr(playerInstance, attribute)/// @param playerInstance
+/// @param  attribute
+
+Converting GML script: ${project_dir}\scripts\Log_scr\Log_scr.gml
+Converted description /// @description Log_scr(logString, logName [optional])/// @param logString
+/// @param  logName [optional]
+Converted string - line 17: "Logs\" -> "Logs\\"
+
+Converting GML script: ${project_dir}\scripts\split\split.gml
+Converted description /// @description split(string, separator)/// @param string
+/// @param  separator
+
+Converting GML script: ${project_dir}\scripts\trace\trace.gml
+Converted description /// @description  trace(...)/// @param ...
+
+Converting GML script: ${project_dir}\scripts\SerializableMapAddDataStructure_scr\SerializableMapAddDataStructure_scr.gml
+Converted description /// @description SerializableMapAddDataStructure_scr(map, key, ds, dsType)/// @param map
+/// @param  key
+/// @param  ds
+/// @param  dsType
+
+Converting GML script: ${project_dir}\scripts\object_is\object_is.gml
+Converted description /// @description object_is(object_index1, object_index2)/// @param object_index1
+/// @param  object_index2
+
+Converting GML script: ${project_dir}\scripts\relative_coordinates\relative_coordinates.gml
+Converted description /// @description relative_coordinates(xOrigin, yOrigin, xShift, yShift, angle)/// @param xOrigin
+/// @param  yOrigin
+/// @param  xShift
+/// @param  yShift
+/// @param  angle
+
+Converting GML script: ${project_dir}\scripts\instance_place_list\instance_place_list.gml
+Converted description /// @description instance_place_list(x, y, object_index, hit_limit [optional], checkSolid [optional], list [optional], allowDuplicates [optional])/// @param x
+/// @param  y
+/// @param  object_index
+/// @param  hit_limit [optional]
+/// @param  checkSolid [optional]
+/// @param  list [optional]
+/// @param  allowDuplicates [optional]
+
+Converting GML script: ${project_dir}\scripts\sort_list_by_distance\sort_list_by_distance.gml
+Converted description /// @description sort_list_by_distance(x, y, list, ascending [optional] = true, preferredObjectType [optional] = undefined)/// @param x
+/// @param  y
+/// @param  list
+/// @param  ascending [optional] = true
+/// @param  preferredObjectType [optional] = undefined
+
+Converting GML script: ${project_dir}\scripts\move_outside\move_outside.gml
+Converted description /// @description move_outside(obj, dir, maxdist)/// @param obj
+/// @param  dir
+/// @param  maxdist
+
+Converting GML script: ${project_dir}\scripts\vectors_combine\vectors_combine.gml
+Converted description /// @description vectors_combine(dir1, spd1, dir2, spd2)/// @param dir1
+/// @param  spd1
+/// @param  dir2
+/// @param  spd2
+
+Converting GML script: ${project_dir}\scripts\vectors_combine_list\vectors_combine_list.gml
+Converted description /// @description vectors_combine_list(directionSpeedPairList)/// @param directionSpeedPairList
+
+Converting GML script: ${project_dir}\scripts\InstanceDestroyByNetID_scr\InstanceDestroyByNetID_scr.gml
+Converted description /// @description InstanceDestroyByNetID_scr(netID)/// @param netID
+
+Converting GML script: ${project_dir}\scripts\is_odd\is_odd.gml
+Converted description /// @description is_odd(number)/// @param number
+
+Converting GML script: ${project_dir}\scripts\lines_intersect\lines_intersect.gml
+Converted description /// @description  lines_intersect(x1,y1,x2,y2,x3,y3,x4,y4,segment)/// @param x1
+/// @param y1
+/// @param x2
+/// @param y2
+/// @param x3
+/// @param y3
+/// @param x4
+/// @param y4
+/// @param segment
+
+Converting GML script: ${project_dir}\scripts\mouse_has_moved\mouse_has_moved.gml
+Converted description /// @description mouse_has_moved()
+
+Converting GML script: ${project_dir}\scripts\Movable_SetSpeed_scr\Movable_SetSpeed_scr.gml
+Converted description /// @description Movable_SetSpeed_scr(movable, speed)/// @param movable
+/// @param  speed
+
+Converting GML script: ${project_dir}\scripts\Movable_AccelTowardsSpeed_scr\Movable_AccelTowardsSpeed_scr.gml
+Converted description /// @description Movable_AccelTowardsSpeed_scr(movable, speed, accel)/// @param movable
+/// @param  speed
+/// @param  accel
+
+Converting GML script: ${project_dir}\scripts\Movable_AccelTowardsSpeedVector_scr\Movable_AccelTowardsSpeedVector_scr.gml
+Converted description /// @description Movable_AccelTowardsSpeedVector_scr(movable, speedX, accelX, speedY, accelY, maxSpeed [optional])/// @param movable
+/// @param  speedX
+/// @param  accelX
+/// @param  speedY
+/// @param  accelY
+/// @param  maxSpeed [optional]
+
+Converting GML script: ${project_dir}\scripts\Movable_SetDirection_scr\Movable_SetDirection_scr.gml
+Converted description /// @description Movable_SetDirection_scr(movable, direction)/// @param movable
+/// @param  direction
+
+Converting GML script: ${project_dir}\scripts\Movable_SetBuiltInSpeedProperties_scr\Movable_SetBuiltInSpeedProperties_scr.gml
+Converted description /// @description Movable_SetBuiltInSpeedProperties_scr(movable)/// @param movable
+
+Converting GML script: ${project_dir}\scripts\Movable_UnsetBuiltInSpeedProperties_scr\Movable_UnsetBuiltInSpeedProperties_scr.gml
+Converted description /// @description Movable_UnsetBuiltInSpeedProperties_scr(movable)/// @param movable
+
+Converting GML script: ${project_dir}\scripts\Weapon_IsShootable_scr\Weapon_IsShootable_scr.gml
+Converted description /// @description Weapon_IsShootable_scr(weapon)/// @param weapon
+
+Converting GML script: ${project_dir}\scripts\Collidable_GetHitteeMask_scr\Collidable_GetHitteeMask_scr.gml
+Converted description /// @description Collidable_GetHitteeMask_scr(collidable)/// @param collidable
+
+Converting GML script: ${project_dir}\scripts\Collidable_GetHitterMask_scr\Collidable_GetHitterMask_scr.gml
+Converted description /// @description Collidable_GetHitterMask_scr(collidable)/// @param collidable
+
+Converting GML script: ${project_dir}\scripts\Collidable_SetHitterMask_scr\Collidable_SetHitterMask_scr.gml
+Converted description /// @description Collidable_SetHitterMask_scr(collidable, hitmask)/// @param collidable
+/// @param  hitmask
+
+Converting GML script: ${project_dir}\scripts\Collidable_PlaceMeeting_scr\Collidable_PlaceMeeting_scr.gml
+Converted description /// @description Collidable_PlaceMeeting_scr(x, y, hitter, hittee)/// @param x
+/// @param  y
+/// @param  hitter
+/// @param  hittee
+
+Converting GML script: ${project_dir}\scripts\Collidable_InstancePlace_scr\Collidable_InstancePlace_scr.gml
+Converted description /// @description Collidable_InstancePlace_scr(x, y, hitter, hittee)/// @param x
+/// @param  y
+/// @param  hitter
+/// @param  hittee
+
+Converting GML script: ${project_dir}\scripts\CollidingMover_ValidateMovement_scr\CollidingMover_ValidateMovement_scr.gml
+Converted description /// @description CollidingMover_ValidateMovement_scr(collidingMover, collidingMoverHitboxType, previousX, previousY, newX, newY, maxStepDistance, collisionTarget, collisionTargetHitboxType, treatAsSolid)/// @param collidingMover
+/// @param  collidingMoverHitboxType
+/// @param  previousX
+/// @param  previousY
+/// @param  newX
+/// @param  newY
+/// @param  maxStepDistance
+/// @param  collisionTarget
+/// @param  collisionTargetHitboxType
+/// @param  treatAsSolid
+
+Converting GML script: ${project_dir}\scripts\CollidingMover_AddCollisionTarget_scr\CollidingMover_AddCollisionTarget_scr.gml
+Converted description /// @description CollidingMover_AddCollisionTarget_scr(collidingMover, collideeType, script, treatAsSolid, insertPosition [optional])/// @param collidingMover
+/// @param  collideeType
+/// @param  script
+/// @param  treatAsSolid
+/// @param  insertPosition [optional]
+
+Converting GML script: ${project_dir}\scripts\CollidingMover_BasicWallCollision_scr\CollidingMover_BasicWallCollision_scr.gml
+Converted description /// @description CollidingMover_BasicWallCollision_scr(wallInstance, x, y, remainingSpeed)/// @param wallInstance
+/// @param  x
+/// @param  y
+/// @param  remainingSpeed
+
+Converting GML script: ${project_dir}\scripts\HitSpine_Collision_scr\HitSpine_Collision_scr.gml
+Converted description /// @description HitSpine_Collision_scr(collidingInstance, x, y)/// @param collidingInstance
+/// @param  x
+/// @param  y
+
+Converting GML script: ${project_dir}\scripts\HitSpine_InstanceCollision_scr\HitSpine_InstanceCollision_scr.gml
+Converted description /// @description HitSpine_InstanceCollision_scr(collidingInstance, hitSpineInstance, x, y, specificSegment [optional])/// @param collidingInstance
+/// @param  hitSpineInstance
+/// @param  x
+/// @param  y
+/// @param  specificSegment [optional]
+
+Converting GML script: ${project_dir}\scripts\EnvironmentWall_BuildCornerList_scr\EnvironmentWall_BuildCornerList_scr.gml
+Converted description /// @description EnvironmentWall_BuildCornerList_scr(sizeModifier, setExtremities)/// @param sizeModifier
+/// @param  setExtremities
+
+Converting GML script: ${project_dir}\scripts\EnvironmentWall_GetExtremity_scr\EnvironmentWall_GetExtremity_scr.gml
+Converted description /// @description EnvironmentWall_GetExtremity_scr(wall, extremity)/// @param wall
+/// @param  extremity
+
+Converting GML script: ${project_dir}\scripts\Hitbox_PlaceMeeting_scr\Hitbox_PlaceMeeting_scr.gml
+Converted description /// @description Hitbox_PlaceMeeting_scr(x, y, hitterMask, hitteeMask)/// @param x
+/// @param  y
+/// @param  hitterMask
+/// @param  hitteeMask
+
+Converting GML script: ${project_dir}\scripts\GameListInitialize_scr\GameListInitialize_scr.gml
+Converted description /// @description GameListInitialize_scr()
+
+Converting GML script: ${project_dir}\scripts\InitializeControls_scr\InitializeControls_scr.gml
+Converted description /// @description InitializeControls_scr()
+
+Converting GML script: ${project_dir}\scripts\EventsMapClassInitialize_scr\EventsMapClassInitialize_scr.gml
+Converted description /// @description EventsMapClassInitialize_scr()
+
+Converting GML script: ${project_dir}\scripts\InitializeShadowMap_scr\InitializeShadowMap_scr.gml
+Converted description /// @description InitializeShadowMap_scr()
+
+Converting GML script: ${project_dir}\scripts\NetMsgWriteHello_scr\NetMsgWriteHello_scr.gml
+Converted description /// @description NetMsgWriteHello_scr(gameName, lobbyPort, sessionPort, localIP, buffer [optional])/// @param gameName
+/// @param  lobbyPort
+/// @param  sessionPort
+/// @param  localIP
+/// @param  buffer [optional]
+
+Converting GML script: ${project_dir}\scripts\NetMsgWriteWelcome_scr\NetMsgWriteWelcome_scr.gml
+Converted description /// @description NetMsgWriteWelcome_scr(serverPort, uniqueID, buffer [optional])/// @param serverPort
+/// @param  uniqueID
+/// @param  buffer [optional]
+
+Converting GML script: ${project_dir}\scripts\NetMsgWriteCreateGame_scr\NetMsgWriteCreateGame_scr.gml
+Converted description /// @description NetMsgWriteCreateGame_scr(uid, gameData, buffer)/// @param uid
+/// @param  gameData
+/// @param  buffer
+
+Converting GML script: ${project_dir}\scripts\NetMsgWriteRequestGames_scr\NetMsgWriteRequestGames_scr.gml
+Converted description /// @description NetMsgWriteRequestGames_scr(gameName, uid, buffer [optional])/// @param gameName
+/// @param  uid
+/// @param  buffer [optional]
+
+Converting GML script: ${project_dir}\scripts\NetMsgWriteRequestGame_scr\NetMsgWriteRequestGame_scr.gml
+Converted description /// @description NetMsgWriteRequestGame_scr(gameName, uid, buffer [optional])/// @param gameName
+/// @param  uid
+/// @param  buffer [optional]
+
+Converting GML script: ${project_dir}\scripts\NetMsgWriteRequestJoin_scr\NetMsgWriteRequestJoin_scr.gml
+Converted description /// @description NetMsgWriteRequestJoin_scr(gameName, clientUID, hostUID, password, buffer [optional])/// @param gameName
+/// @param  clientUID
+/// @param  hostUID
+/// @param  password
+/// @param  buffer [optional]
+
+Converting GML script: ${project_dir}\scripts\NetMsgWriteRequestJoinResonse_scr\NetMsgWriteRequestJoinResonse_scr.gml
+Converted description /// @description NetMsgWriteRequestJoinResonse_scr(answer [0=no 1=yes], joinData [if yes], reason [if no], joinUID, buffer [optional])/// @param answer [0=no 1=yes]
+/// @param  joinData [if yes]
+/// @param  reason [if no]
+/// @param  joinUID
+/// @param  buffer [optional]
+
+Converting GML script: ${project_dir}\scripts\NetMsgWritePlayerData_scr\NetMsgWritePlayerData_scr.gml
+Converted description /// @description NetMsgWritePlayerData_scr(clientData, buffer [optional])/// @param clientData
+/// @param  buffer [optional]
+
+Converting GML script: ${project_dir}\scripts\NetMsgWriteRegisterSubclient_scr\NetMsgWriteRegisterSubclient_scr.gml
+Converted description /// @description NetMsgWriteRegisterSubclient_scr(uid, buffer [optional])/// @param uid
+/// @param  buffer [optional]
+
+Converting GML script: ${project_dir}\scripts\NetMsgWriteConnectSessionPeers_scr\NetMsgWriteConnectSessionPeers_scr.gml
+Converted description /// @description NetMsgWriteConnectSessionPeers_scr(uidToSend, uidToReceive, buffer [optional])/// @param uidToSend
+/// @param  uidToReceive
+/// @param  buffer [optional]
+
+Converting GML script: ${project_dir}\scripts\NetMsgWriteHolePunch_scr\NetMsgWriteHolePunch_scr.gml
+Converted description /// @description NetMsgWriteHolePunch_scr(uid, buffer [optional])/// @param uid
+/// @param  buffer [optional]
+
+Converting GML script: ${project_dir}\scripts\NetMsgWriteSendHolePunchTo_scr\NetMsgWriteSendHolePunchTo_scr.gml
+Converted description /// @description NetMsgWriteSendHolePunchTo_scr(uid, buffer [optional])/// @param uid
+/// @param  buffer [optional]
+
+Converting GML script: ${project_dir}\scripts\NetMsgWriteUpdateBasic_scr\NetMsgWriteUpdateBasic_scr.gml
+Converted description /// @description NetMsgWriteUpdateBasic_scr(recipient, updateMap, buffer [optional])/// @param recipient
+/// @param  updateMap
+/// @param  buffer [optional]
+
+Converting GML script: ${project_dir}\scripts\NetMsgWriteUpdateEnvironment_scr\NetMsgWriteUpdateEnvironment_scr.gml
+Converted description /// @description NetMsgWriteUpdateEnvironment_scr(updateNumber, environmentObjectInstance, buffer [optional])/// @param updateNumber
+/// @param  environmentObjectInstance
+/// @param  buffer [optional]
+
+Converting GML script: ${project_dir}\scripts\NetMsgWriteEnvironmentPregenData_scr\NetMsgWriteEnvironmentPregenData_scr.gml
+Converted description /// @description NetMsgWriteEnvironmentPregenData_scr(environmentInstanceNumber, buffer [optional])/// @param environmentInstanceNumber
+/// @param  buffer [optional]
+
+Converting GML script: ${project_dir}\scripts\NetMsgWriteEnvironmentGenReady_scr\NetMsgWriteEnvironmentGenReady_scr.gml
+Converted description /// @description NetMsgWriteEnvironmentGenReady_scr(clientUID, buffer [optional])/// @param clientUID
+/// @param  buffer [optional]
+
+Converting GML script: ${project_dir}\scripts\NetMsgWriteEnvironmentGenRequest_scr\NetMsgWriteEnvironmentGenRequest_scr.gml
+Converted description /// @description NetMsgWriteEnvironmentGenRequest_scr(clientUID, buffer [optional])/// @param clientUID
+/// @param  buffer [optional]
+
+Converting GML script: ${project_dir}\scripts\NetMsgWriteRequestNetID_scr\NetMsgWriteRequestNetID_scr.gml
+Converted description /// @description NetMsgWriteRequestNetID_scr(uid, localID, buffer [optional])/// @param uid
+/// @param  localID
+/// @param  buffer [optional]
+
+Converting GML script: ${project_dir}\scripts\NetMsgWriteAssignNetID_scr\NetMsgWriteAssignNetID_scr.gml
+Converted description /// @description NetMsgWriteAssignNetID_scr(localID, netID, buffer [optional])/// @param localID
+/// @param  netID
+/// @param  buffer [optional]
+
+Converting GML script: ${project_dir}\scripts\NetMsgWriteSessionDisconnect_scr\NetMsgWriteSessionDisconnect_scr.gml
+Converted description /// @description NetMsgWriteSessionDisconnect_scr(uid)/// @param uid
+
+Converting GML script: ${project_dir}\scripts\NetMsgWriteScriptExecute_scr\NetMsgWriteScriptExecute_scr.gml
+Converted description /// @description NetMsgWriteScriptExecute_scr(scriptIndex, args)/// @param scriptIndex
+/// @param  args
+
+Converting GML script: ${project_dir}\scripts\NetMsgWriteHolePunchResponse_scr\NetMsgWriteHolePunchResponse_scr.gml
+Converted description /// @description NetMsgWriteHolePunchResponse_scr(uid, buffer [optional])/// @param uid
+/// @param  buffer [optional]
+
+Converting GML script: ${project_dir}\scripts\NetMsgWriteResponse_scr\NetMsgWriteResponse_scr.gml
+Converted description /// @description NetMsgWriteResponse_scr(type, buffer [optional])/// @param type
+/// @param  buffer [optional]
+
+Converting GML script: ${project_dir}\scripts\ClientLobbyHandleWelcome_scr\ClientLobbyHandleWelcome_scr.gml
+Converted description /// @description ClientLobbyHandleWelcome_scr(buffer)/// @param buffer
+
+Converting GML script: ${project_dir}\scripts\ClientLobbyHandleGameData_scr\ClientLobbyHandleGameData_scr.gml
+Converted description /// @description ClientLobbyHandleGameData_scr(buffer)/// @param buffer
+
+Converting GML script: ${project_dir}\scripts\ClientLobbyHandleJoinResponse_scr\ClientLobbyHandleJoinResponse_scr.gml
+Converted description /// @description ClientLobbyHandleJoinResponse_scr(buffer)/// @param buffer
+
+Converting GML script: ${project_dir}\scripts\ClientLobbyHandlePlayerData_scr\ClientLobbyHandlePlayerData_scr.gml
+Converted description /// @description ClientLobbyHandlePlayerData_scr(buffer)/// @param buffer
+
+Converting GML script: ${project_dir}\scripts\ClientLobbyHandleSendHolepunchTo_scr\ClientLobbyHandleSendHolepunchTo_scr.gml
+Converted description /// @description ClientLobbyHandleSendHolepunchTo_scr(buffer)/// @param buffer
+
+Converting GML script: ${project_dir}\scripts\LobbyServerHandleRequestGames_scr\LobbyServerHandleRequestGames_scr.gml
+Converted description /// @description LobbyServerHandleRequestGames_scr(ip, buffer)/// @param ip
+/// @param  buffer
+
+Converting GML script: ${project_dir}\scripts\LobbyServerHandleCreateGame_scr\LobbyServerHandleCreateGame_scr.gml
+Converted description /// @description LobbyServerHandleCreateGame_scr(buffer)/// @param buffer
+
+Converting GML script: ${project_dir}\scripts\LobbyServerHandleRequestJoin_scr\LobbyServerHandleRequestJoin_scr.gml
+Converted description /// @description LobbyServerHandleRequestJoin_scr(ip, buff)/// @param ip
+/// @param  buff
+
+Converting GML script: ${project_dir}\scripts\LobbyServerHandleHello_scr\LobbyServerHandleHello_scr.gml
+Converted description /// @description LobbyServerHandleHello_scr(ip, buff)/// @param ip
+/// @param  buff
+
+Converting GML script: ${project_dir}\scripts\LobbyServerHandleRegisterSubclient_scr\LobbyServerHandleRegisterSubclient_scr.gml
+Converted description /// @description LobbyServerHandleRegisterSubclient_scr(ip, port, buff)/// @param ip
+/// @param  port
+/// @param  buff
+
+Converting GML script: ${project_dir}\scripts\LobbyServerHandleConnectSessionPeers_scr\LobbyServerHandleConnectSessionPeers_scr.gml
+Converted description /// @description LobbyServerHandleConnectSessionPeers_scr(buff)/// @param buff
+
+Converting GML script: ${project_dir}\scripts\NetworkAcceptMessage_scr\NetworkAcceptMessage_scr.gml
+Converted description /// @description NetworkAcceptMessage_scr(socket, readScript)/// @param socket
+/// @param  readScript
+
+Converting GML script: ${project_dir}\scripts\ClientSessionHostHandleNetIDRequest_scr\ClientSessionHostHandleNetIDRequest_scr.gml
+Converted description /// @description ClientSessionHostHandleNetIDRequest_scr(buffer)/// @param buffer
+
+Converting GML script: ${project_dir}\scripts\ClientSessionHandleNetIDAssign_scr\ClientSessionHandleNetIDAssign_scr.gml
+Converted description /// @description ClientSessionHandleNetIDAssign_scr(buffer)/// @param buffer
+
+Converting GML script: ${project_dir}\scripts\ClientSessionHandleUpdateBasic_scr\ClientSessionHandleUpdateBasic_scr.gml
+Converted description /// @description ClientSessionHandleUpdateBasic_scr(buffer)/// @param buffer
+
+Converting GML script: ${project_dir}\scripts\ClientSessionHandlePlayerData_scr\ClientSessionHandlePlayerData_scr.gml
+Converted description /// @description ClientSessionHandlePlayerData_scr(buffer)/// @param buffer
+
+Converting GML script: ${project_dir}\scripts\ClientSessionHandleSessionDisconnect_scr\ClientSessionHandleSessionDisconnect_scr.gml
+Converted description /// @description ClientSessionHandleSessionDisconnect_scr(buffer)/// @param buffer
+
+Converting GML script: ${project_dir}\scripts\ClientSessionHandleScriptExecute_scr\ClientSessionHandleScriptExecute_scr.gml
+Converted description /// @description ClientSessionHandleScriptExecute_scr(buff)/// @param buff
+
+Converting GML script: ${project_dir}\scripts\ClientSessionHandleUpdateEnvironment_scr\ClientSessionHandleUpdateEnvironment_scr.gml
+Converted description /// @description ClientSessionHandleUpdateEnvironment_scr(buffer)/// @param buffer
+
+Converting GML script: ${project_dir}\scripts\ClientSessionHandleEnvironmentPregenData_scr\ClientSessionHandleEnvironmentPregenData_scr.gml
+Converted description /// @description ClientSessionHandleEnvironmentPregenData_scr(buffer)/// @param buffer
+
+Converting GML script: ${project_dir}\scripts\ClientSessionHandleEnvironmentGenRequest_scr\ClientSessionHandleEnvironmentGenRequest_scr.gml
+Converted description /// @description ClientSessionHandleEnvironmentPregenData_scr(buffer)/// @param buffer
+
+Converting GML script: ${project_dir}\scripts\ClientSessionHandleEnvironmentGenReady_scr\ClientSessionHandleEnvironmentGenReady_scr.gml
+Converted description /// @description ClientSessionHandleEnvironmentGenReady_scr(buffer)/// @param buffer
+
+Converting GML script: ${project_dir}\scripts\ClientSessionHandleHolepunch_scr\ClientSessionHandleHolepunch_scr.gml
+Converted description /// @description ClientSessionHandleHolepunch_scr(ip, port, buff)/// @param ip
+/// @param  port
+/// @param  buff
+
+Converting GML script: ${project_dir}\scripts\ClientSessionHandleHolepunchResponse_scr\ClientSessionHandleHolepunchResponse_scr.gml
+Converted description /// @description ClientSessionHandleHolepunch_scr(ip, port, buff)/// @param ip
+/// @param  port
+/// @param  buff
+
+Converting GML script: ${project_dir}\scripts\InboxGetUpdate_scr\InboxGetUpdate_scr.gml
+Converted description /// @description InboxGetUpdate_scr(netID)/// @param netID
+
+Converting GML script: ${project_dir}\scripts\OutboxDepositUpdate_scr\OutboxDepositUpdate_scr.gml
+Converted description /// @description OutboxDepositUpdate_scr(netID, updateMap)/// @param netID
+/// @param  updateMap
+
+Converting GML script: ${project_dir}\scripts\NetMsgLobbyServerRead_scr\NetMsgLobbyServerRead_scr.gml
+Converted description /// @description NetMsgLobbyServerRead_scr(type, ip, port, buffer)/// @param type
+/// @param  ip
+/// @param  port
+/// @param  buffer
+
+Converting GML script: ${project_dir}\scripts\LobbyServerAddClient_scr\LobbyServerAddClient_scr.gml
+Converted description /// @description LobbyServerAddClient_scr(gameName, clientIP, clientPort, clientPortSession, clientLocalIP) /// @param gameName
+/// @param  clientIP
+/// @param  clientPort
+/// @param  clientPortSession
+/// @param  clientLocalIP
+
+Converting GML script: ${project_dir}\scripts\LobbyServerCreateGameGroup_scr\LobbyServerCreateGameGroup_scr.gml
+Converted description /// @description LobbyServerCreateGameGroup_scr()
+
+Converting GML script: ${project_dir}\scripts\LobbyServerGetClient_scr\LobbyServerGetClient_scr.gml
+Converted description /// @description LobbyServerGetClient_scr(gameName, clientUID)/// @param gameName
+/// @param  clientUID
+
+Converting GML script: ${project_dir}\scripts\LobbyServerGetClientMap_scr\LobbyServerGetClientMap_scr.gml
+Converted description /// @description LobbyServerGetClientMap_scr(uid)/// @param uid
+
+Converting GML script: ${project_dir}\scripts\LobbyServerBuildSessionPlayerDataPackage_scr\LobbyServerBuildSessionPlayerDataPackage_scr.gml
+Converted description /// @description LobbyServerBuildSessionPlayerDataPackage_scr(playersList)/// @param playersList
+
+Converting GML script: ${project_dir}\scripts\LobbyServerDistributeJoiningPlayerData_scr\LobbyServerDistributeJoiningPlayerData_scr.gml
+Converted description /// @description LobbyServerDistributeJoiningPlayerData_scr(joiningClientUID, playersList)/// @param joiningClientUID
+/// @param  playersList
+
+Converting GML script: ${project_dir}\scripts\LobbyServerRegisterSubclient_scr\LobbyServerRegisterSubclient_scr.gml
+Converted description /// @description LobbyServerRegisterSubclient_scr(gameName, uid, ip, port)/// @param gameName
+/// @param  uid
+/// @param  ip
+/// @param  port
+
+Converting GML script: ${project_dir}\scripts\NetMsgLobbyClientRead_scr\NetMsgLobbyClientRead_scr.gml
+Converted description /// @description NetMsgLobbyClientRead_scr(type, ip, buffer)/// @param type
+/// @param  ip
+/// @param  buffer
+
+Converting GML script: ${project_dir}\scripts\NetMsgLobbyClientSendCreateGame_scr\NetMsgLobbyClientSendCreateGame_scr.gml
+Converted description /// @description NetMsgLobbyClientSendCreateGame_scr(argArray)/// @param argArray
+
+Converting GML script: ${project_dir}\scripts\NetworkClientGetGameName_scr\NetworkClientGetGameName_scr.gml
+Converted description /// @description NetworkClientCreateGame_scr(client)/// @param client
+
+Converting GML script: ${project_dir}\scripts\GameSessionDataBuild_scr\GameSessionDataBuild_scr.gml
+Converted description /// @description GameSessionDataBuild_scr(gameName, joinPolicy)/// @param gameName
+/// @param  joinPolicy
+
+Converting GML script: ${project_dir}\scripts\GameSessionRequestJoin_scr\GameSessionRequestJoin_scr.gml
+Converted description /// @description GameSessionRequestJoin_scr(argArray)/// @param argArray
+
+Converting GML script: ${project_dir}\scripts\GameSessionGetSession_scr\GameSessionGetSession_scr.gml
+Converted description /// @description GameSessionGetSession_scr(gameName, uid)/// @param gameName
+/// @param  uid
+
+Converting GML script: ${project_dir}\scripts\RemoteScriptProjImpact_scr\RemoteScriptProjImpact_scr.gml
+Converted description /// @description RemoteScriptProjectileImpact_scr(args)/// @param args
+
+Converting GML script: ${project_dir}\scripts\RemoteScriptInstanceDestroyByNetID_scr\RemoteScriptInstanceDestroyByNetID_scr.gml
+Converted description /// @description RemoteScriptInstanceDestroyByNetID_scr(argsList)/// @param argsList
+
+Converting GML script: ${project_dir}\scripts\NetMsgSessionClientRead_scr\NetMsgSessionClientRead_scr.gml
+Converted description /// @description NetMsgSessionClientRead_scr(type, ip, port, buffer)/// @param type
+/// @param  ip
+/// @param  port
+/// @param  buffer
+
+Converting GML script: ${project_dir}\scripts\ClientSessionCreate_scr\ClientSessionCreate_scr.gml
+Converted description /// @description ClientSessionCreate_scr(uid, peerList, hostUID, socket)/// @param uid
+/// @param  peerList
+/// @param  hostUID
+/// @param  socket
+
+Converting GML script: ${project_dir}\scripts\ClientSessionRequestNetworkID_scr\ClientSessionRequestNetworkID_scr.gml
+Converted description /// @description ClientSessionRequestNetworkID_scr(localID)/// @param localID
+
+Converting GML script: ${project_dir}\scripts\ClientSessionDisconnect_scr\ClientSessionDisconnect_scr.gml
+Converted description /// @description ClientSessionDisconnect_scr(peerList)/// @param peerList
+
+Converting GML script: ${project_dir}\scripts\ClientSessionDistributeMessageToPeers_scr\ClientSessionDistributeMessageToPeers_scr.gml
+Converted description /// @description ClientSessionDistributeMessageToPeers_scr(messageBuffer)/// @param messageBuffer
+
+Converting GML script: ${project_dir}\scripts\ClientSessionHostSendEnvironmentGenData_scr\ClientSessionHostSendEnvironmentGenData_scr.gml
+Converted description /// @description ClientSessionHostSendEnvironmentGenData_scr(clientData)/// @param clientData
+
+Converting GML script: ${project_dir}\scripts\ClientSessionHostInitEnvironmentMap_scr\ClientSessionHostInitEnvironmentMap_scr.gml
+Converted description /// @description ClientSessionHostInitEnvironmentMap_scr()
+
+Converting GML script: ${project_dir}\scripts\ClientSessionHolePunchShotgun_scr\ClientSessionHolePunchShotgun_scr.gml
+Converted description /// @description ClientSessionHolePunchShotgun_scr(clientMap, spread)/// @param clientMap
+/// @param  spread
+
+Converting GML script: ${project_dir}\scripts\ListViewArrangeItems_scr\ListViewArrangeItems_scr.gml
+Converted description /// @description ListViewArrangeItems_scr(item_list, x_start, y_start)/// @param item_list
+/// @param  x_start
+/// @param  y_start
+
+Converting GML script: ${project_dir}\scripts\ListViewArrangeListItems_scr\ListViewArrangeListItems_scr.gml
+Converted description /// @description ListViewArrangeListItems_scr(list)/// @param list
+
+Converting GML script: ${project_dir}\scripts\ListViewControlSelect_scr\ListViewControlSelect_scr.gml
+Converted description /// @description Control select
+
+Converting GML script: ${project_dir}\scripts\ListViewAddItem_scr\ListViewAddItem_scr.gml
+Converted description /// @description ListViewAddItem_scr(listItem, list, groupName [optional])/// @param listItem
+/// @param  list
+/// @param  groupName [optional]
+
+Converting GML script: ${project_dir}\scripts\ListViewGetGroupByName_scr\ListViewGetGroupByName_scr.gml
+Converted description /// @description ListViewGetGroupByName_scr(list, groupName)/// @param list
+/// @param  groupName
+
+Converting GML script: ${project_dir}\scripts\ListViewGetMargins_scr\ListViewGetMargins_scr.gml
+Converted description /// @description ListViewGetMargins_scr(list)/// @param list
+
+Converting GML script: ${project_dir}\scripts\UIElementObscured_scr\UIElementObscured_scr.gml
+Converted description /// @description UIElementObscured_scr(container, element, [offsetCoords] {coord array})/// @param container
+/// @param  element
+/// @param  [offsetCoords] {coord array}
+
+Converting GML script: ${project_dir}\scripts\UIElementObscured_scr_old\UIElementObscured_scr_old.gml
+Converted description /// @description UIElementObscured_scr(container, element)/// @param container
+/// @param  element
+
+Converting GML script: ${project_dir}\scripts\UIElementSetObscureDrawMembers_scr\UIElementSetObscureDrawMembers_scr.gml
+Converted description /// @description UIElementSetObscureDrawMembers_scr()
+
+Converting GML script: ${project_dir}\scripts\UIContainerDisplayDimensions_scr\UIContainerDisplayDimensions_scr.gml
+Converted description /// @description UIContainerDisplayDimensions_scr(container)/// @param container
+
+Converting GML script: ${project_dir}\scripts\UIContainerDisplayHeight_scr\UIContainerDisplayHeight_scr.gml
+Converted description /// @description UIContainerDisplayHeight_scr(container)/// @param container
+
+Converting GML script: ${project_dir}\scripts\UIContainerDisplayWidth_scr\UIContainerDisplayWidth_scr.gml
+Converted description /// @description UIContainerDisplayWidth_scr(container)/// @param container
+
+Converting GML script: ${project_dir}\scripts\UIGameSessionContainerCreate_scr\UIGameSessionContainerCreate_scr.gml
+Converted description /// @description UIGameSessionContainerCreate_scr(gameData)/// @param gameData
+
+Converting GML script: ${project_dir}\scripts\UIContainerIsPointWithin_scr\UIContainerIsPointWithin_scr.gml
+Converted description /// @description UIContainerIsPointWithin_scr(container, x, y)/// @param container
+/// @param  x
+/// @param  y
+
+Converting GML script: ${project_dir}\scripts\UILabelDraw_scr\UILabelDraw_scr.gml
+Converted description /// @description UILabelDraw_scr(isDrawnToSurface, argArray)/// @param isDrawnToSurface
+/// @param  argArray
+
+Converting GML script: ${project_dir}\scripts\UIDrawButton_scr\UIDrawButton_scr.gml
+Converted description /// @description UIDrawButton_scr(argArray)/// @param argArray
+
+Converting GML script: ${project_dir}\scripts\ControlsDirectionFromGamepadAxes_scr\ControlsDirectionFromGamepadAxes_scr.gml
+Converted description /// @description ControlsDirectionFromGamepadAxes_scr(axisH, axisV)/// @param axisH
+/// @param  axisV
+
+Converting GML script: ${project_dir}\scripts\InitializeDefaultKeyboardControls_scr\InitializeDefaultKeyboardControls_scr.gml
+Converted description /// @description InitializeDefaultKeyboardControls_scr(controlMap)/// @param controlMap
+
+Converting GML script: ${project_dir}\scripts\InitializeDefaultGamepadControls_scr\InitializeDefaultGamepadControls_scr.gml
+Converted description /// @description InitializeDefaultGamepadControls_scr(controlMap)/// @param controlMap
+
+Converting GML script: ${project_dir}\scripts\ControlsReadReload_scr\ControlsReadReload_scr.gml
+Converted description /// @description ControlsReadReload_scr(isButtonPressed)/// @param isButtonPressed
+
+Converting GML script: ${project_dir}\scripts\WeaponReloadBasic_scr\WeaponReloadBasic_scr.gml
+Converted description /// @description WeaponReloadBasic_scr(ammoCapacity)/// @param ammoCapacity
+
+Converting GML script: ${project_dir}\scripts\WeaponCreateFireDispersionArray_scr\WeaponCreateFireDispersionArray_scr.gml
+Converted description /// @description WeaponCreateFireDispersionArray_scr(minDispersionRange, maxDispersionRange)/// @param minDispersionRange
+/// @param  maxDispersionRange
+
+Converting GML script: ${project_dir}\scripts\WeaponCreateMuzzleOriginArray_scr\WeaponCreateMuzzleOriginArray_scr.gml
+Converted description /// @description WeaponCreateMuzzleOriginArray_scr(muzzleX, muzzleY)/// @param muzzleX
+/// @param  muzzleY
+
+Converting GML script: ${project_dir}\scripts\WeaponGetReloadRate_scr\WeaponGetReloadRate_scr.gml
+Converted description /// @description WeaponGetReloadRate_scr(wepInstance)/// @param wepInstance
+
+Converting GML script: ${project_dir}\scripts\WeaponGetNextProjectileType_scr\WeaponGetNextProjectileType_scr.gml
+Converted description /// @description WeaponGetNextProjectileType_scr(weaponInstance)/// @param weaponInstance
+
+Converting GML script: ${project_dir}\scripts\WeaponGetClipIndex_scr\WeaponGetClipIndex_scr.gml
+Converted description /// @description WeaponGetClipIndex_scr(weaponInstance)/// @param weaponInstance
+
+Converting GML script: ${project_dir}\scripts\WeaponInitiateReload_scr\WeaponInitiateReload_scr.gml
+Converted description /// @description WeaponInitiateReload_scr(weaponInstance)/// @param weaponInstance
+
+Converting GML script: ${project_dir}\scripts\WeaponGetProjectileAttribute_scr\WeaponGetProjectileAttribute_scr.gml
+Converted description /// @description WeaponGetProjectileAttribute_scr(weaponInstance, projectileType, attribute)/// @param weaponInstance
+/// @param  projectileType
+/// @param  attribute
+
+Converting GML script: ${project_dir}\scripts\WeaponSetProjectileAttribute_scr\WeaponSetProjectileAttribute_scr.gml
+Converted description /// @description WeaponSetProjectileAttribute_scr(weaponInstance, projectileType, attribute, value)/// @param weaponInstance
+/// @param  projectileType
+/// @param  attribute
+/// @param  value
+
+Converting GML script: ${project_dir}\scripts\AmmoAddDisplaySpriteToMap_scr\AmmoAddDisplaySpriteToMap_scr.gml
+Converted description /// @description AmmoAddDisplaySpriteToMap_scr(projObjectIndex, displaySpriteIndex)/// @param projObjectIndex
+/// @param  displaySpriteIndex
+
+Converting GML script: ${project_dir}\scripts\AmmoGetDisplaySpriteForProjectileObject_scr\AmmoGetDisplaySpriteForProjectileObject_scr.gml
+Converted description /// @description AmmoGetDisplaySpriteForProjectileObject_scr(projectileObjectIndex)/// @param projectileObjectIndex
+
+Converting GML script: ${project_dir}\scripts\WeaponGetClipCapacity_scr\WeaponGetClipCapacity_scr.gml
+Converted description /// @description WeaponGetClipCapacity_scr(weaponInstance)/// @param weaponInstance
+
+Converting GML script: ${project_dir}\scripts\ProjImpact_scr\ProjImpact_scr.gml
+Converted description /// @description ProjImpact_scr(x, y, impactObj, depth, imageAngle)/// @param x
+/// @param  y
+/// @param  impactObj
+/// @param  depth
+/// @param  imageAngle
+
+Converting GML script: ${project_dir}\scripts\ProjHitEvent_scr\ProjHitEvent_scr.gml
+Converted description /// @description ProjHitEvent_scr(argArray)/// @param argArray
+
+Converting GML script: ${project_dir}\scripts\ProjApplyModifiers_scr\ProjApplyModifiers_scr.gml
+Converted description /// @description ProjApplyModifiers_scr(projectileInstance)/// @param projectileInstance
+
+Converting GML script: ${project_dir}\scripts\ProjCreateEvent_scr\ProjCreateEvent_scr.gml
+Converted description /// @description ProjCreateEvent_scr()
+
+Converting GML script: ${project_dir}\scripts\ProjGetAttribute_scr\ProjGetAttribute_scr.gml
+Converted description /// @description ProjGetAttribute_scr(projType, attribute)/// @param projType
+/// @param  attribute
+
+Converting GML script: ${project_dir}\scripts\WeaponGetProjectileAttributeDamage_scr\WeaponGetProjectileAttributeDamage_scr.gml
+Converted description /// @description WeaponGetProjectileAttributeDamage_scr(weaponInstance, projectileType)/// @param weaponInstance
+/// @param  projectileType
+
+Converting GML script: ${project_dir}\scripts\WeaponEjectCasing_scr\WeaponEjectCasing_scr.gml
+Converted description /// @description WeaponEjectCasing_scr(shellObj, xSpeedLower, xSpeedUpper, ySpeedLower, ySpeedUpper, zSpeedLower, zSpeedUpper, rotSpeedLower, rotSpeedUpper, relativeX [optional], relativeY [optional])/// @param shellObj
+/// @param  xSpeedLower
+/// @param  xSpeedUpper
+/// @param  ySpeedLower
+/// @param  ySpeedUpper
+/// @param  zSpeedLower
+/// @param  zSpeedUpper
+/// @param  rotSpeedLower
+/// @param  rotSpeedUpper
+/// @param  relativeX [optional]
+/// @param  relativeY [optional]
+
+Converting GML script: ${project_dir}\scripts\WeaponReloadStart_scr\WeaponReloadStart_scr.gml
+Converted description /// @description WeaponReloadStart_scr()
+
+Converting GML script: ${project_dir}\scripts\WeaponReloadEnd_scr\WeaponReloadEnd_scr.gml
+Converted description /// @description WeaponReloadStart_scr()
+
+Converting GML script: ${project_dir}\scripts\EntityHandsAddPositions_scr\EntityHandsAddPositions_scr.gml
+Converted description /// @description EntityHandsAddPosition_scr(handsInstance, positionCoords1, positionCoords2...)/// @param handsInstance
+/// @param  positionCoords1
+/// @param  positionCoords2...
+
+Converting GML script: ${project_dir}\scripts\EntityGetEffectiveSpeedMax_scr\EntityGetEffectiveSpeedMax_scr.gml
+Converted description /// @description EntityGetEffectiveSpeedMax_scr(entityInstance)/// @param entityInstance
+
+Converting GML script: ${project_dir}\scripts\EntityGetActualPosition_scr\EntityGetActualPosition_scr.gml
+Converted description /// @description EntityGetActualPosition_scr(entityInstance)/// @param entityInstance
+
+Converting GML script: ${project_dir}\scripts\EntityGetGravity_scr\EntityGetGravity_scr.gml
+Converted description /// @description EntityGetGravity_scr(entity [optional])/// @param entity [optional]
+
+Converting GML script: ${project_dir}\scripts\EntityGetZRelativePosition_scr\EntityGetZRelativePosition_scr.gml
+Converted description /// @description EntityGetZRelativePosition_scr(referenceY, y)/// @param referenceY
+/// @param  y
+
+Converting GML script: ${project_dir}\scripts\EntitySetImageSpeed_scr\EntitySetImageSpeed_scr.gml
+Converted description /// @description EntitySetImageSpeed_scr(entity, imageSpeed)/// @param entity
+/// @param  imageSpeed
+
+Converting GML script: ${project_dir}\scripts\Entity_GetPreviousCoordinates_scr\Entity_GetPreviousCoordinates_scr.gml
+Converted description /// @description Entity_GetPreviousCoordinates_scr(entity, previousIndex)/// @param entity
+/// @param  previousIndex
+
+Converting GML script: ${project_dir}\scripts\Entity_GetSpeed_scr\Entity_GetSpeed_scr.gml
+Converted description /// @description Entity_GetSpeed_scr(entity)/// @param entity
+
+Converting GML script: ${project_dir}\scripts\Entity_SetSpeed_scr\Entity_SetSpeed_scr.gml
+Converted description /// @description Entity_SetSpeed_scr(entity, speedType, speed)/// @param entity
+/// @param  speedType
+/// @param  speed
+
+Converting GML script: ${project_dir}\scripts\Entity_AddToSpeed_scr\Entity_AddToSpeed_scr.gml
+Converted description /// @description Entity_AddToSpeed_scr(entity, speedType, speedToAdd)/// @param entity
+/// @param  speedType
+/// @param  speedToAdd
+
+Converting GML script: ${project_dir}\scripts\Entity_MotionAdd_scr\Entity_MotionAdd_scr.gml
+Converted description /// @description Entity_MotionAdd_scr(entity, direction, speed)/// @param entity
+/// @param  direction
+/// @param  speed
+
+Converting GML script: ${project_dir}\scripts\Entity_GetClosestMaskCorner_scr\Entity_GetClosestMaskCorner_scr.gml
+Converted description /// @description Entity_GetClosestMaskCorner_scr(entity, x, y)/// @param entity
+/// @param  x
+/// @param  y
+
+Converting GML script: ${project_dir}\scripts\Entity_GetMaskMidpoint_scr\Entity_GetMaskMidpoint_scr.gml
+Converted description /// @description Entity_GetMaskMidpoint_scr(entity)/// @param entity
+
+Converting GML script: ${project_dir}\scripts\Entity_GetCorner_scr\Entity_GetCorner_scr.gml
+Converted description /// @description Entity_GetCorner_scr(entity, corner [Corners enum])/// @param entity
+/// @param  corner [Corners enum]
+
+Converting GML script: ${project_dir}\scripts\Entity_GetMaskExtremity_scr\Entity_GetMaskExtremity_scr.gml
+Converted description /// @description Entity_GetMaskExtremity_scr(entity, extremity)/// @param entity
+/// @param  extremity
+
+Converting GML script: ${project_dir}\scripts\CombatantGetMovementCoords_scr\CombatantGetMovementCoords_scr.gml
+Converted description /// @description CombatantGetMovementCoords_scr(combatant)/// @param combatant
+
+Converting GML script: ${project_dir}\scripts\CombatantInitEventsMap_scr\CombatantInitEventsMap_scr.gml
+Converted description /// @description CombatantInitEventsMap_scr()
+
+Converting GML script: ${project_dir}\scripts\PlayerInitEventsMap_scr\PlayerInitEventsMap_scr.gml
+Converted description /// @description PlayerInitEventsMap_scr()
+
+Converting GML script: ${project_dir}\scripts\CombatantAIAddState_scr\CombatantAIAddState_scr.gml
+Converted description /// @description CombatantAIAddState_scr(combatant, state1, state2...)/// @param combatant
+/// @param  state1
+/// @param  state2...
+
+Converting GML script: ${project_dir}\scripts\CombatantAIAddStateExclusive_scr\CombatantAIAddStateExclusive_scr.gml
+Converted description /// @description CombatantAIAddStateExclusive_scr(combatant, state1, state2...)/// @param combatant
+/// @param  state1
+/// @param  state2...
+
+Converting GML script: ${project_dir}\scripts\CombatantAIContainsState_scr\CombatantAIContainsState_scr.gml
+Converted description /// @description CombatantAIContainsState_scr(combatant, state)/// @param combatant
+/// @param  state
+
+Converting GML script: ${project_dir}\scripts\EntityCombatantGetWallCollisionDirection_scr\EntityCombatantGetWallCollisionDirection_scr.gml
+Converted description /// @description EntityCombatantGetWallCollisionDirection_scr(entity, wallInstance)/// @param entity
+/// @param  wallInstance
+
+Converting GML script: ${project_dir}\scripts\CombatantGetPrimaryWeapon_scr\CombatantGetPrimaryWeapon_scr.gml
+Converted description /// @description CombatantGetPrimaryWeapon_scr(combatantInstance)/// @param combatantInstance
+
+Converting GML script: ${project_dir}\scripts\CombatantSetActiveWeapon_scr\CombatantSetActiveWeapon_scr.gml
+Converted description /// @description CombatantSetActiveWeapon_scr(combatant, weapon, slotIndex)/// @param combatant
+/// @param  weapon
+/// @param  slotIndex
+
+Converting GML script: ${project_dir}\scripts\CombatantPutWeaponAway_scr\CombatantPutWeaponAway_scr.gml
+Converted description /// @description CombatantPutWeaponAway_scr(combatant, weapon)/// @param combatant
+/// @param  weapon
+
+Converting GML script: ${project_dir}\scripts\CombatantSwitchWeapon_scr\CombatantSwitchWeapon_scr.gml
+Converted description /// @description CombatantSwitchWeapon_scr(combatant, direction)/// @param combatant
+/// @param  direction
+
+Converting GML script: ${project_dir}\scripts\EntityEventRegister_scr\EntityEventRegister_scr.gml
+Converted description /// @description EntityEventRegister_scr(entityInstance, eventType, eventScript, eventArgs, eventID [optional])/// @param entityInstance
+/// @param  eventType
+/// @param  eventScript
+/// @param  eventArgs
+/// @param  eventID [optional]
+
+Converting GML script: ${project_dir}\scripts\EntityEventUnregister_scr\EntityEventUnregister_scr.gml
+Converted description /// @description EntityEventUnregister_scr(entityInstance, eventType, eventID)/// @param entityInstance
+/// @param  eventType
+/// @param  eventID
+
+Converting GML script: ${project_dir}\scripts\EntityEventGetEventList_scr\EntityEventGetEventList_scr.gml
+Converted description /// @description EntityEventGetEventList_scr(instanceOrObjectIndex, eventType)/// @param instanceOrObjectIndex
+/// @param  eventType
+
+Converting GML script: ${project_dir}\scripts\EntityEventDestroyEventMap_scr\EntityEventDestroyEventMap_scr.gml
+Converted description /// @description EntityEventDestroyEventMap_scr(entityInstance)/// @param entityInstance
+
+Converting GML script: ${project_dir}\scripts\EntityEventServerAddSupportedEvent_scr\EntityEventServerAddSupportedEvent_scr.gml
+Converted description /// @description EntityEventServerAddSupportedEvent_scr(entityInstance, eventType)/// @param entityInstance
+/// @param  eventType
+
+Converting GML script: ${project_dir}\scripts\EntityEventFire_scr\EntityEventFire_scr.gml
+Converted description /// @description EntityEventFire_scr(entityInstance, eventType)/// @param entityInstance
+/// @param  eventType
+
+Converting GML script: ${project_dir}\scripts\EntityAnimationEventRegister_scr\EntityAnimationEventRegister_scr.gml
+Converted description /// @description EntityAnimationEventRegister_scr(entity, sprite, imageIndex, eventScript, eventArgs, eventID [optional], allowDuplicates [optional])/// @param entity
+/// @param  sprite
+/// @param  imageIndex
+/// @param  eventScript
+/// @param  eventArgs
+/// @param  eventID [optional]
+/// @param  allowDuplicates [optional]
+
+Converting GML script: ${project_dir}\scripts\InteractibleInteract_scr\InteractibleInteract_scr.gml
+Converted description /// @description InteractibleInteract_scr(interactor, interactibleInstance)/// @param interactor
+/// @param  interactibleInstance
+
+Converting GML script: ${project_dir}\scripts\InteractiblePickUpWeapon_scr\InteractiblePickUpWeapon_scr.gml
+Converted description /// @description InteractiblePickUpWeapon_scr(interactorInstance, interactArgs)/// @param interactorInstance
+/// @param  interactArgs
+
+Converting GML script: ${project_dir}\scripts\PassiveInteract_scr\PassiveInteract_scr.gml
+Converted description /// @description PassiveInteract_scr(interactor, interactArgs)/// @param interactor
+/// @param  interactArgs
+
+Converting GML script: ${project_dir}\scripts\PassiveDrumMag_scr\PassiveDrumMag_scr.gml
+Converted description /// @description PassiveDrumMag_scr(pickerUpper, pickupOrDrop)/// @param pickerUpper
+/// @param  pickupOrDrop
+
+Converting GML script: ${project_dir}\scripts\PassivePurplePowder_scr\PassivePurplePowder_scr.gml
+Converted description /// @description PassivePurplePowder_scr(pickerUpper, pickupOrDrop)/// @param pickerUpper
+/// @param  pickupOrDrop
+
+Converting GML script: ${project_dir}\scripts\PassiveAlienAutopsy_scr\PassiveAlienAutopsy_scr.gml
+Converted description /// @description PassiveAlienAutopsy_scr(pickerUpper, pickupOrDrop)/// @param pickerUpper
+/// @param  pickupOrDrop
+
+Converting GML script: ${project_dir}\scripts\ModifiersGetModifierBaseValue_scr\ModifiersGetModifierBaseValue_scr.gml
+Converted description /// @description ModifiersGetModifierBaseValue_scr(modifierType)/// @param modifierType
+
+Converting GML script: ${project_dir}\scripts\ModifiersGetClassModifier_scr\ModifiersGetClassModifier_scr.gml
+Converted description /// @description ModifiersGetClassModifier_scr(objectType, modifier)/// @param objectType
+/// @param  modifier
+
+Converting GML script: ${project_dir}\scripts\ModifiersGetClassModifiersComprehensive_scr\ModifiersGetClassModifiersComprehensive_scr.gml
+Converted description /// @description ModifiersGetClassModifiersComprehensive_scr(objectIndex, mod1...mod14)/// @param objectIndex
+/// @param  mod1...mod14
+
+Converting GML script: ${project_dir}\scripts\ModifiersApply_scr\ModifiersApply_scr.gml
+Converted description /// @description ModifiersApply_scr(instance, modifier, value)/// @param instance
+/// @param  modifier
+/// @param  value
+
+Converting GML script: ${project_dir}\scripts\ModifiersGetInstanceModifier_scr\ModifiersGetInstanceModifier_scr.gml
+Converted description /// @description ModifiersGetInstanceModifier_scr(instance, modifier)/// @param instance
+/// @param  modifier
+
+Converting GML script: ${project_dir}\scripts\ModifiersSetInstanceModifier_scr\ModifiersSetInstanceModifier_scr.gml
+Converted description /// @description ModifiersSetInstanceModifier_scr(instance, modifier, modifierVal)/// @param instance
+/// @param  modifier
+/// @param  modifierVal
+
+Converting GML script: ${project_dir}\scripts\ModifiersIncrementInstanceModifier_scr\ModifiersIncrementInstanceModifier_scr.gml
+Converted description /// @description ModifiersIncrementInstanceModifier_scr(instance, modifierType, modifierVal)/// @param instance
+/// @param  modifierType
+/// @param  modifierVal
+
+Converting GML script: ${project_dir}\scripts\ModifiersSetClassModifier_scr\ModifiersSetClassModifier_scr.gml
+Converted description /// @description ModifiersSetClassModifier_scr(objectIndex, modifierType, modifierVal)/// @param objectIndex
+/// @param  modifierType
+/// @param  modifierVal
+
+Converting GML script: ${project_dir}\scripts\ModifiersIncrementClassModifier_scr\ModifiersIncrementClassModifier_scr.gml
+Converted description /// @description ModifiersIncrementClassModifier_scr(objectIndex, modifierType, modifierVal)/// @param objectIndex
+/// @param  modifierType
+/// @param  modifierVal
+
+Converting GML script: ${project_dir}\scripts\ModifiersIncrementCombatantProjectileClassModifier_scr\ModifiersIncrementCombatantProjectileClassModifier_scr.gml
+Converted description /// @description ModifiersIncrementCombatantProjectileClassModifier_scr(combatant, projectileClass, modifierType, modifierValue)/// @param combatant
+/// @param  projectileClass
+/// @param  modifierType
+/// @param  modifierValue
+
+Converting GML script: ${project_dir}\scripts\ModifiersGetCombatantProjectileClassModifierComprehensive_scr\ModifiersGetCombatantProjectileClassModifierComprehensive_scr.gml
+Converted description /// @description ModifiersGetCombatantProjectileClassModifierComprehensive_scr(combatant, objectType, mod1...mod13)/// @param combatant
+/// @param  objectType
+/// @param  mod1...mod13
+
+Converting GML script: ${project_dir}\scripts\ModifiersGetCombatantWeaponClassModifierComprehensive_scr\ModifiersGetCombatantWeaponClassModifierComprehensive_scr.gml
+Converted description /// @description ModifiersGetCombatantWeaponClassModifierComprehensive_scr(combatant, objectType, mod1...mod13)/// @param combatant
+/// @param  objectType
+/// @param  mod1...mod13
+
+Converting GML script: ${project_dir}\scripts\ModifiersGetLayeredModifier_scr\ModifiersGetLayeredModifier_scr.gml
+Converted description /// @description ModifiersGetLayeredModifier_scr(modifierMap, objectType, modifierType)/// @param modifierMap
+/// @param  objectType
+/// @param  modifierType
+
+Converting GML script: ${project_dir}\scripts\ModifiersGetLayeredModifiersComprehensive_scr\ModifiersGetLayeredModifiersComprehensive_scr.gml
+Converted description /// @description ModifiersGetLayeredModifiersComprehensive_scr(modifierMap, objectIndex, modArray)/// @param modifierMap
+/// @param  objectIndex
+/// @param  modArray
+
+Converting GML script: ${project_dir}\scripts\ModifiersGetCombatantNextShotModifiers_scr\ModifiersGetCombatantNextShotModifiers_scr.gml
+Converted description /// @description ModifiersGetCombatantNextShotModifiers_scr(playerInstance, modifierFamily)/// @param playerInstance
+/// @param  modifierFamily
+
+Converting GML script: ${project_dir}\scripts\BackgroundWorkerCreate_scr\BackgroundWorkerCreate_scr.gml
+Converted description /// @description BackgroundWorkerCreate_scr(script, initScript [optional], endScript [optional], stepTimeMax [optional])/// @param script
+/// @param  initScript [optional]
+/// @param  endScript [optional]
+/// @param  stepTimeMax [optional]
+
+Converting GML script: ${project_dir}\scripts\BackgroundTest_scr\BackgroundTest_scr.gml
+Converted description /// @description BackgroundTest_scr(index)/// @param index
+
+Converting GML script: ${project_dir}\scripts\BackgroundCacheWeaponHandholdData_scr\BackgroundCacheWeaponHandholdData_scr.gml
+Converted description /// @description BackgroundCacheWeaponHandholdData_spr(index)/// @param index
+
+Converting GML script: ${project_dir}\scripts\BackgroundIdentifyHandHoldSprites_scr\BackgroundIdentifyHandHoldSprites_scr.gml
+Converted description /// @description BackgroundIdentifyHandHoldSprites_scr(index)/// @param index
+
+Converting GML script: ${project_dir}\scripts\BackgroundIdentifyHandHoldSpritesInit_scr\BackgroundIdentifyHandHoldSpritesInit_scr.gml
+Converted description /// @description BackgroundIdentifyHandHoldSpritesInit_scr
+
+Converting GML script: ${project_dir}\scripts\BackgroundIdentifyHandholdSpritesEnd_scr\BackgroundIdentifyHandholdSpritesEnd_scr.gml
+Converted description /// @description BackgroundIdentifyHandholdSpritesEnd_scr(index)/// @param index
+
+Converting GML script: ${project_dir}\scripts\HandholdGetDataFromSprite_scr\HandholdGetDataFromSprite_scr.gml
+Converted description /// @description HandholdGetDataFromSprite_scr(sprite)/// @param sprite
+
+Converting GML script: ${project_dir}\scripts\CompoundSpriteAssemble_scr\CompoundSpriteAssemble_scr.gml
+Converted description /// @description CompoundSpriteAssemble_scr(sprite, maxLayers, color1 [optional], color2 [optional], color3 [optional]...)/// @param sprite
+/// @param  maxLayers
+/// @param  color1 [optional]
+/// @param  color2 [optional]
+/// @param  color3 [optional]...
+
+Converting GML script: ${project_dir}\scripts\InitKbdShiftMap_scr\InitKbdShiftMap_scr.gml
+Converted description /// @description InitKbdShiftMap_scr()
+Converted string - line 20: "\" -> "\\"
+Converted string - line 22: '"' -> "\""
+
+Converting GML script: ${project_dir}\scripts\InitKbdKnownKeys_scr\InitKbdKnownKeys_scr.gml
+Converted description /// @description InitKbdKnownKeys_scr()
+Converted string - line 102: "\" -> "\\"
+
+Converting GML script: ${project_dir}\scripts\InitConsoleCommands_scr\InitConsoleCommands_scr.gml
+Converted description /// @description InitConsoleCommands_scr()
+
+Converting GML script: ${project_dir}\scripts\ParseConsoleCommand_scr\ParseConsoleCommand_scr.gml
+Converted description /// @description ParseConsoleCommand_scr(command)/// @param command
+
+Converting GML script: ${project_dir}\scripts\ExecuteConsoleCommand_scr\ExecuteConsoleCommand_scr.gml
+Converted description /// @description ExecuteConsoleCommand_scr(command, argArr)/// @param command
+/// @param  argArr
+
+Converting GML script: ${project_dir}\scripts\PrintConsoleLine_scr\PrintConsoleLine_scr.gml
+Converted description /// @description PrintConsoleLine_scr(text)/// @param text
+
+Converting GML script: ${project_dir}\scripts\SanitizeConsoleScriptName_scr\SanitizeConsoleScriptName_scr.gml
+Converted description /// @description SanitizeConsoleScriptName_scr(consoleScriptName)/// @param consoleScriptName
+
+Converting GML script: ${project_dir}\scripts\BuildIntellisenseList_scr\BuildIntellisenseList_scr.gml
+Converted description /// @description BuildIntellisenseList_scr(partialCommand)/// @param partialCommand
+
+Converting GML script: ${project_dir}\scripts\UpdateIntellisenseList_scr\UpdateIntellisenseList_scr.gml
+Converted description /// @description UpdateIntellisenseList_scr(partialCommand)/// @param partialCommand
+
+Converting GML script: ${project_dir}\scripts\GetConsoleMetadata_scr\GetConsoleMetadata_scr.gml
+Converted description /// @description GetConsoleMetadata_scr(consoleCommand)/// @param consoleCommand
+
+Converting GML script: ${project_dir}\scripts\GetValidatorMetadata_scr\GetValidatorMetadata_scr.gml
+Converted description /// @description GetValidatorMetadata_scr(paramType)/// @param paramType
+
+Converting GML script: ${project_dir}\scripts\ValidateArgs_scr\ValidateArgs_scr.gml
+Converted description /// @description ValidateArgs_scr(command, args, errorList, warningList)/// @param command
+/// @param  args
+/// @param  errorList
+/// @param  warningList
+
+Converting GML script: ${project_dir}\scripts\GetParamTypes_scr\GetParamTypes_scr.gml
+Converted description /// @description GetParamTypes_scr(command)/// @param command
+
+Converting GML script: ${project_dir}\scripts\GetSuggestionList_scr\GetSuggestionList_scr.gml
+Converted description /// @description GetSuggestionList_scr(commandString, paramIndex, paramType)/// @param commandString
+/// @param  paramIndex
+/// @param  paramType
+
+Converting GML script: ${project_dir}\scripts\split_new\split_new.gml
+Converted description /// @description split(string, separator)/// @param string
+/// @param  separator
+
+Converting GML script: ${project_dir}\scripts\limit_value_magnitude\limit_value_magnitude.gml
+Converted description /// @description limit_value_magnitude(value, limit)/// @param value
+/// @param  limit
+
+Converting GML script: ${project_dir}\scripts\move_outside_solid_with_mask\move_outside_solid_with_mask.gml
+Converted description /// @description move_outside_solid_with_mask(direction, maxDist, maskIndex)/// @param direction
+/// @param  maxDist
+/// @param  maskIndex
+
+Converting GML script: ${project_dir}\scripts\move_until_solid\move_until_solid.gml
+Converted description /// @description move_until_solid(xStart, yStart, xEnd, yEnd, increment)/// @param xStart
+/// @param  yStart
+/// @param  xEnd
+/// @param  yEnd
+/// @param  increment
+
+Converting GML script: ${project_dir}\scripts\move_until_solid_with_mask\move_until_solid_with_mask.gml
+Converted description /// @description move_until_solid_with_mask(xStart, yStart, xEnd, yEnd, increment, maskIndex)/// @param xStart
+/// @param  yStart
+/// @param  xEnd
+/// @param  yEnd
+/// @param  increment
+/// @param  maskIndex
+
+Converting GML script: ${project_dir}\scripts\sprite_set_properties\sprite_set_properties.gml
+Converted description /// @description sprite_set_properties(sprite_index, image_index, image_speed)/// @param sprite_index
+/// @param  image_index
+/// @param  image_speed
+
+Converting GML script: ${project_dir}\scripts\ConsoleValidateParameterBool_scr\ConsoleValidateParameterBool_scr.gml
+Converted description /// @description ConsoleValidateParameterBool_scr(value)/// @param value
+
+Converting GML script: ${project_dir}\scripts\ConsoleValidateParameterInt_scr\ConsoleValidateParameterInt_scr.gml
+Converted description /// @description ConsoleValidateParameterInt_scr(value)/// @param value
+
+Converting GML script: ${project_dir}\scripts\ConsoleValidateParameterMetadataInt_scr\ConsoleValidateParameterMetadataInt_scr.gml
+Converted description /// @description ConsoleValidateParameterMetadataInt_scr(metadataMap)/// @param metadataMap
+
+Converting GML script: ${project_dir}\scripts\ConsoleValidateParameterObjectInstance_scr\ConsoleValidateParameterObjectInstance_scr.gml
+Converted description /// @description ConsoleValidateParameterObjectInstance_scr(value)/// @param value
+
+Converting GML script: ${project_dir}\scripts\ConsoleValidateParameterMetadataObjectInstance_scr\ConsoleValidateParameterMetadataObjectInstance_scr.gml
+Converted description /// @description ConsoleValidateParameterMetadataObjectInstance_scr()
+
+Converting GML script: ${project_dir}\scripts\ConsoleValidateParameterString_scr\ConsoleValidateParameterString_scr.gml
+Converted description /// @description ConsoleValidateParameterObjectInstance_scr(value)/// @param value
+
+Converting GML script: ${project_dir}\scripts\ConsoleValidateParameterObjectType_scr\ConsoleValidateParameterObjectType_scr.gml
+Converted description /// @description ConsoleValidateParameterObjectType_scr(value)/// @param value
+
+Converting GML script: ${project_dir}\scripts\ConsoleValidateParameterMetadataObjectType_scr\ConsoleValidateParameterMetadataObjectType_scr.gml
+Converted description /// @description ConsoleValidateParameterMetadataObjectType_scr()
+
+Converting GML script: ${project_dir}\scripts\ConsoleValidateParameterRoom_scr\ConsoleValidateParameterRoom_scr.gml
+Converted description /// @description ConsoleValidateParameterRoom_scr(value)/// @param value
+
+Converting GML script: ${project_dir}\scripts\ConsoleValidateParameterMetadataRoom_scr\ConsoleValidateParameterMetadataRoom_scr.gml
+Converted description /// @description ConsoleValidateParameterMetadataRoom_scr(metadataMap)/// @param metadataMap
+
+Converting GML script: ${project_dir}\scripts\GetObjectTypes_scr\GetObjectTypes_scr.gml
+Converted description /// @description GetObjectTypes_scr(text, list)/// @param text
+/// @param  list
+
+Converting GML script: ${project_dir}\scripts\GetRooms_scr\GetRooms_scr.gml
+Converted description /// @description GetRooms_scr(text, valueList, displayList)/// @param text
+/// @param  valueList
+/// @param  displayList
+
+Converting GML script: ${project_dir}\scripts\ConsoleGoToRoom_scr\ConsoleGoToRoom_scr.gml
+Converted description /// @description ConsoleGoToRoom(room)/// @param room
+
+Converting GML script: ${project_dir}\scripts\ConsoleShowRooms_scr\ConsoleShowRooms_scr.gml
+Converted description /// @description ConsoleShowRooms_scr()
+
+Converting GML script: ${project_dir}\scripts\ConsoleMetadataShowRooms_scr\ConsoleMetadataShowRooms_scr.gml
+Converted description /// @description ConsoleMetadataShowRooms_scr()
+
+Converting GML script: ${project_dir}\scripts\ConsoleShowConsoleCommands_scr\ConsoleShowConsoleCommands_scr.gml
+Converted description /// @description ConsoleShowConsoleCommands_scr()
+
+Converting GML script: ${project_dir}\scripts\ConsoleSpawnObject_scr\ConsoleSpawnObject_scr.gml
+Converted builtin - line 18: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 19: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 18: view_wview -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 19: view_hview -> __view_get( e__VW.HView, 0 )
+Converted description /// @description ConsoleSpawnObject_scr(index, number [optional], separation [optional])/// @param index
+/// @param  number [optional]
+/// @param  separation [optional]
+
+Converting GML script: ${project_dir}\scripts\ConsoleMetadataSpawnObject_scr\ConsoleMetadataSpawnObject_scr.gml
+Converted description /// @description ConsoleMetadataShowRooms_scr()
+
+Converting GML script: ${project_dir}\scripts\ConsoleDeleteObjectInstancesOfType_scr\ConsoleDeleteObjectInstancesOfType_scr.gml
+Converted description /// @description ConsoleDeleteObjectInstancesOfType_scr(objectIndex)/// @param objectIndex
+
+Converting GML script: ${project_dir}\scripts\ConsoleMetadataDeleteObjectInstancesOfType_scr\ConsoleMetadataDeleteObjectInstancesOfType_scr.gml
+Converted description /// @description ConsoleMetadataDeleteObjectInstancesOfType_scr()
+
+Converting GML script: ${project_dir}\scripts\ConsoleRestartRoom_scr\ConsoleRestartRoom_scr.gml
+Converted description /// @description ConsoleResetRoom_scr()
+
+Converting GML script: ${project_dir}\scripts\ConsoleActivateRoomEditor_scr\ConsoleActivateRoomEditor_scr.gml
+Converted description /// @description ConsoleActivateRoomEditor_scr()
+
+Converting GML script: ${project_dir}\scripts\ConsoleTestNextPowerOf_scr\ConsoleTestNextPowerOf_scr.gml
+Converted description /// @description ConsoleTestNextPowerOf_scr(value, power)/// @param value
+/// @param  power
+
+Converting GML script: ${project_dir}\scripts\ConsoleMetadataTestNextPowerOf_scr\ConsoleMetadataTestNextPowerOf_scr.gml
+Converted description /// @description ConsoleMetadataTestNextPowerOf_scr
+
+Converting GML script: ${project_dir}\scripts\ConsoleMetadataEnableLogging_scr\ConsoleMetadataEnableLogging_scr.gml
+Converted description /// @description ConsoleMetadataEnableLogging_scr
+
+Converting GML script: ${project_dir}\scripts\ConsoleEnableLogging_scr\ConsoleEnableLogging_scr.gml
+Converted description /// @description ConsoleEnableLogging_scr(enable)/// @param enable
+
+Converting GML script: ${project_dir}\scripts\ConsoleThrowUninitializedVariableError_scr\ConsoleThrowUninitializedVariableError_scr.gml
+Converted description /// @description ConsoleThrowUninitializedVariableError_scr()
+
+Converting GML script: ${project_dir}\scripts\ConsoleMetadataThrowUninitializedVariableError_scr\ConsoleMetadataThrowUninitializedVariableError_scr.gml
+Converted description /// @description ConsoleMetadataThrowUninitializedVariableError_scr()
+
+Converting GML script: ${project_dir}\scripts\EditorGetSelectColor_scr\EditorGetSelectColor_scr.gml
+Converted description /// @description EditorGetSelectionColor_scr()
+
+Converting GML script: ${project_dir}\scripts\BuildAssetLists_scr\BuildAssetLists_scr.gml
+Converted description /// @description BuildAssetLists_scr()
+
+Converting GML script: ${project_dir}\scripts\HasBuildAssetsBeenRun_scr\HasBuildAssetsBeenRun_scr.gml
+Converted description /// @description HasBuildAssetListsBeenRun_scr()
+
+Converting GML script: ${project_dir}\scripts\next_power_of\next_power_of.gml
+Converted description /// @description next_power_of(value, power)/// @param value
+/// @param  power
+
+Converting GML script: ${project_dir}\scripts\draw_rectangle_by_lines\draw_rectangle_by_lines.gml
+Converted description /// @description draw_rectangle_by_lines(x1, y1, x2, y2, color)/// @param x1
+/// @param  y1
+/// @param  x2
+/// @param  y2
+/// @param  color
+
+Converting GML script: ${project_dir}\scripts\instance_singleton\instance_singleton.gml
+Converted description /// @description instance_singleton()
+
+Converting GML script: ${project_dir}\scripts\SingletonCreate_scr\SingletonCreate_scr.gml
+Converted description /// @description SingletonCreate_scr(x, y, obj)/// @param x
+/// @param  y
+/// @param  obj
+
+Converting GML script: ${project_dir}\scripts\EnforceSingleton_scr\EnforceSingleton_scr.gml
+Converted description /// @description EnforceSingleton_scr()
+
+Converting GML script: ${project_dir}\scripts\FormsSetElementPosition_scr\FormsSetElementPosition_scr.gml
+Converted description /// @description FormsSetElementPosition_scr(element, xPosition, yPosition)/// @param element
+/// @param  xPosition
+/// @param  yPosition
+
+Converting GML script: ${project_dir}\scripts\FormsSetElementPositionType_scr\FormsSetElementPositionType_scr.gml
+Converted description /// @description FormsSetElementPositionType_scr(element, xPositionType [DimensionType enum], yPositionType [DimensionType enum])/// @param element
+/// @param  xPositionType [DimensionType enum]
+/// @param  yPositionType [DimensionType enum]
+
+Converting GML script: ${project_dir}\scripts\FormsAddContentElementType_scr\FormsAddContentElementType_scr.gml
+Converted description /// @description FormsAddContentElementType_scr(containerElement, contentElementType, xPosition, yPosition)/// @param containerElement
+/// @param  contentElementType
+/// @param  xPosition
+/// @param  yPosition
+
+Converting GML script: ${project_dir}\scripts\FormsAddContentElementInstance_scr\FormsAddContentElementInstance_scr.gml
+Converted description /// @description FormsAddContentElementInstance_scr(containerElement, contentElement)/// @param containerElement
+/// @param  contentElement
+
+Converting GML script: ${project_dir}\scripts\FormsRemoveContentElement_scr\FormsRemoveContentElement_scr.gml
+Converted description /// @description FormsRemoveContentElement_scr(childElement)/// @param childElement
+
+Converting GML script: ${project_dir}\scripts\FormsGetElementWidth_scr\FormsGetElementWidth_scr.gml
+Converted description /// @description FormsGetElementWidth_scr(element)/// @param element
+
+Converting GML script: ${project_dir}\scripts\FormsGetElementHeight_scr\FormsGetElementHeight_scr.gml
+Converted description /// @description FormsGetElementHeight_scr(element)/// @param element
+
+Converting GML script: ${project_dir}\scripts\FormsSetElementHeight_scr\FormsSetElementHeight_scr.gml
+Converted description /// @description FormsSetElementHeight_scr(element, height)/// @param element
+/// @param  height
+
+Converting GML script: ${project_dir}\scripts\FormsSetElementWidth_scr\FormsSetElementWidth_scr.gml
+Converted description /// @description FormsSetElementWidth_scr(element, width)/// @param element
+/// @param  width
+
+Converting GML script: ${project_dir}\scripts\FormsSetContainerMargin_scr\FormsSetContainerMargin_scr.gml
+Converted description /// @description FormsSetContainerMargin_scr(element, margin [Margins enum], marginValue)/// @param element
+/// @param  margin [Margins enum]
+/// @param  marginValue
+
+Converting GML script: ${project_dir}\scripts\FormsSetAllContainerMargins_scr\FormsSetAllContainerMargins_scr.gml
+Converted description /// @description FormsSetAllContainerMargins_scr(element, leftMargin, rightMargin, topMargin, bottomMargin)/// @param element
+/// @param  leftMargin
+/// @param  rightMargin
+/// @param  topMargin
+/// @param  bottomMargin
+
+Converting GML script: ${project_dir}\scripts\FormsGetContainerMargin_scr\FormsGetContainerMargin_scr.gml
+Converted description /// @description FormsGetContainerMargin_scr(element, margin [Margins enum])/// @param element
+/// @param  margin [Margins enum]
+
+Converting GML script: ${project_dir}\scripts\FormsRegisterGUIEventHandler_scr\FormsRegisterGUIEventHandler_scr.gml
+Converted description /// @description FormsRegisterGUIEventHandler_scr(element, eventType [GUIEventTypes enum], eventHandlerScript)/// @param element
+/// @param  eventType [GUIEventTypes enum]
+/// @param  eventHandlerScript
+
+Converting GML script: ${project_dir}\scripts\FormsRegisterDrawScript_scr\FormsRegisterDrawScript_scr.gml
+Error: variable 'layer' has same name as a built-in (function, constant or variable), it must be renamed to function correctly
+Converted description /// @description FormsRegisterDrawScript_scr(element, drawScript, layer [optional])/// @param element
+/// @param  drawScript
+/// @param  layer [optional]
+
+Converting GML script: ${project_dir}\scripts\FormsGetContainerCenterHor_scr\FormsGetContainerCenterHor_scr.gml
+Converted description /// @description FormsGetContainerCenterHor_scr(element)/// @param element
+
+Converting GML script: ${project_dir}\scripts\FormsGetContainerCenterVert_scr\FormsGetContainerCenterVert_scr.gml
+Converted description /// @description FormsGetContainerCenterVert_scr(element)/// @param element
+
+Converting GML script: ${project_dir}\scripts\FormsSetContainerWidth_scr\FormsSetContainerWidth_scr.gml
+Converted description /// @description FormsSetContainerWidth_scr(element, containerWidth)/// @param element
+/// @param  containerWidth
+
+Converting GML script: ${project_dir}\scripts\IsElementOverflown_scr\IsElementOverflown_scr.gml
+Converted description /// @description IsElementOverflown_scr(element)/// @param element
+
+Converting GML script: ${project_dir}\scripts\IsLegalFormsElement_scr\IsLegalFormsElement_scr.gml
+Converted description /// @description IsLegalFormsElement_scr(element)/// @param element
+
+Converting GML script: ${project_dir}\scripts\FormsGetContainerX_scr\FormsGetContainerX_scr.gml
+Converted description /// @description FormsGetContainerX_scr(element)/// @param element
+
+Converting GML script: ${project_dir}\scripts\FormsGetContainerY_scr\FormsGetContainerY_scr.gml
+Converted description /// @description FormsGetContainerY_scr(element)/// @param element
+
+Converting GML script: ${project_dir}\scripts\FormsGetContainerWidth_scr\FormsGetContainerWidth_scr.gml
+Converted description /// @description FormsGetContainerWidth_scr(element)/// @param element
+
+Converting GML script: ${project_dir}\scripts\FormsGetContainerHeight_scr\FormsGetContainerHeight_scr.gml
+Converted description /// @description FormsGetContainerHeight_scr(element)/// @param element
+
+Converting GML script: ${project_dir}\scripts\FormsGetResizeCursor_scr\FormsGetResizeCursor_scr.gml
+Converted description /// @description FormsGetResizeCursor_scr(element, widthResizeType, heightResizeType)/// @param element
+/// @param  widthResizeType
+/// @param  heightResizeType
+
+Converting GML script: ${project_dir}\scripts\FormsGetResizeTypes_scr\FormsGetResizeTypes_scr.gml
+Converted description /// @description FormsGetResizeTypes_scr(element, mouseX, mouseY)/// @param element
+/// @param  mouseX
+/// @param  mouseY
+
+Converting GML script: ${project_dir}\scripts\FormsConfigureMask_scr\FormsConfigureMask_scr.gml
+Converted description /// @description FormsConfigureMask_scr(element)/// @param element
+
+Converting GML script: ${project_dir}\scripts\FormsSetElementPositionByRawCoords_scr\FormsSetElementPositionByRawCoords_scr.gml
+Converted builtin - line 18: view_wview -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 31: view_hview -> __view_get( e__VW.HView, 0 )
+Converted description /// @description FormsSetElementPositionByRawCoords_scr(element, x, y)/// @param element
+/// @param  x
+/// @param  y
+
+Converting GML script: ${project_dir}\scripts\FormsGetUpperLayerDepth_scr\FormsGetUpperLayerDepth_scr.gml
+Converted description /// @description FormsGetUpperLayerDepth_scr()
+
+Converting GML script: ${project_dir}\scripts\FormsGetMasterContainerElement_scr\FormsGetMasterContainerElement_scr.gml
+Converted description /// @description FormsGetMasterContainerElement_scr(element, returnEmbeddingDepthToo [optional])/// @param element
+/// @param  returnEmbeddingDepthToo [optional]
+
+Converting GML script: ${project_dir}\scripts\FormsGetEffectiveBoundaries_scr\FormsGetEffectiveBoundaries_scr.gml
+Converted description /// @description FormsGetMasterContainerElement_scr(element)/// @param element
+
+Converting GML script: ${project_dir}\scripts\FormsGetMasterContainerBoundaries_scr\FormsGetMasterContainerBoundaries_scr.gml
+Converted description /// @description FormsGetMasterContainerBoundaries_scr(element)/// @param element
+
+Converting GML script: ${project_dir}\scripts\FormsRunDrawScripts_scr\FormsRunDrawScripts_scr.gml
+Converted description /// @description FormsRunDrawScripts_scr(x, y)/// @param x
+/// @param  y
+
+Converting GML script: ${project_dir}\scripts\FormsElementDefaultDrawScript_scr\FormsElementDefaultDrawScript_scr.gml
+Converted description /// @description FormsElementDefaultDrawScript_scr(x, y)/// @param x
+/// @param  y
+
+Converting GML script: ${project_dir}\scripts\FormsButtonDefaultDrawScript_scr\FormsButtonDefaultDrawScript_scr.gml
+Converted description /// @description FormsButtonDefaultDrawScript_scr(x, y)/// @param x
+/// @param  y
+
+Font font0 has been converted to font family Arial (Bold) - Font has been regenerated, small inconsistencies may occur
+Font console_fnt has been converted to font family Consolas (Bold) - Font has been regenerated, small inconsistencies may occur
+Converting GML script: ${project_dir}\objects\entity_obj\Create_0.gml
+Converted description /// @description entity_obj Init
+
+Converting GML script: ${project_dir}\objects\entity_obj\Destroy_0.gml
+Converted description /// @description Clean up
+
+Converting GML script: ${project_dir}\objects\entity_obj\Step_2.gml
+Converted description /// @description Revert to raw speed
+
+Converting GML script: ${project_dir}\objects\entity_obj\Step_1.gml
+Converted description /// @description Update non GM built-in elements
+
+Converting GML script: ${project_dir}\objects\entity_obj\Draw_77.gml
+Converted description /// @description Act on m_destroyMe
+
+Converting GML script: ${project_dir}\objects\entity_obj\Draw_0.gml
+Converted description /// @description Draw this entity
+
+Converting GML script: ${project_dir}\objects\entityLocal_obj\Create_0.gml
+Converted description /// @description entity_local_obj Init
+
+Converting GML script: ${project_dir}\objects\entityNetwork_obj\Create_0.gml
+Converted description /// @description entity_network_obj Init
+
+Converting GML script: ${project_dir}\objects\entityNetworkPrime_obj\Create_0.gml
+Converted description /// @description entityNetworkPrime_obj Init
+
+Converting GML script: ${project_dir}\objects\entityNetworkPrime_obj\Destroy_0.gml
+Converted description /// @description Destroy all shadow instances
+
+Converting GML script: ${project_dir}\objects\entityNetworkPrime_obj\Step_2.gml
+Converted description /// @description Ancestor events
+
+Converting GML script: ${project_dir}\objects\entityNetworkShadow_obj\Create_0.gml
+Converted description /// @description entityNetworkClient_obj Init
+
+Converting GML script: ${project_dir}\objects\entityNetworkShadow_obj\Step_2.gml
+Converted description /// @description Check for update in the inbox
+
+Converting GML script: ${project_dir}\objects\Movable_obj\Create_0.gml
+Converted description /// @description Movable init
+
+Converting GML script: ${project_dir}\objects\Movable_obj\Step_1.gml
+Converted description /// @description Update position
+
+Converting GML script: ${project_dir}\objects\Collidable_obj\Create_0.gml
+Converted description /// @description Collidable Init
+
+Converting GML script: ${project_dir}\objects\CollidingMover_obj\Create_0.gml
+Converted description /// @description CollidingMover init
+
+Converting GML script: ${project_dir}\objects\CollidingMover_obj\Step_2.gml
+Converted description /// @description Moving Collision
+
+Converting GML script: ${project_dir}\objects\CollidingMoverTest_obj\Create_0.gml
+Converted description /// @description Init
+
+Converting GML script: ${project_dir}\objects\CollidingMoverTest_obj\Draw_0.gml
+Converted description /// @description Draw speed
+
+Converting GML script: ${project_dir}\objects\CollidingMoverWallCollider_obj\Create_0.gml
+Converted description /// @description Init
+
+Converting GML script: ${project_dir}\objects\CollidingMoverWallCollider_obj\Draw_0.gml
+Converted description /// @description Draw speed
+
+Converting GML script: ${project_dir}\objects\MovableTest_obj\Create_0.gml
+Converted description /// @description Init
+
+Converting GML script: ${project_dir}\objects\entityCombatant_obj\Create_0.gml
+Converted description /// @description Combatant init
+
+Converting GML script: ${project_dir}\objects\entityCombatant_obj\Step_2.gml
+Converted description /// @description Ancestor events
+
+Converting GML script: ${project_dir}\objects\entityCombatant_obj\Step_1.gml
+Converted description /// @description Ancestor events
+
+Converting GML script: ${project_dir}\objects\entityCombatant_obj\Step_0.gml
+Converted description /// @description Ancestor Events
+
+Converting GML script: ${project_dir}\objects\entityCombatantShadow_obj\Step_2.gml
+Converted description /// @description Ancestor Events
+
+Converting GML script: ${project_dir}\objects\playerBase_obj\Create_0.gml
+Converted description /// @description Player Init
+
+Converting GML script: ${project_dir}\objects\playerBase_obj\Step_2.gml
+Converted description /// @description Position weapon
+
+Converting GML script: ${project_dir}\objects\playerBase_obj\Step_1.gml
+Converted description /// @description Player keyboard/mouse Controls
+
+Converting GML script: ${project_dir}\objects\playerBase_obj\Step_0.gml
+Converted description /// @description Highlight collectible
+
+Converting GML script: ${project_dir}\objects\playerBase_obj\Draw_64.gml
+Converted description /// @description Draw hud - empty health slots
+
+Converting GML script: ${project_dir}\objects\playerBasic_obj\Create_0.gml
+Converted description /// @description Ancestor Events
+
+Converting GML script: ${project_dir}\objects\player1_obj\Create_0.gml
+Converted description /// @description Ancestor Events
+
+Converting GML script: ${project_dir}\objects\player1Test_obj\Create_0.gml
+Converted description /// @description Player 1 test init
+
+Converting GML script: ${project_dir}\objects\player1Test_obj\Step_0.gml
+Converted builtin - line 4: view_xview = x - view_wview/2 -> __view_set( e__VW.XView, 0, x - view_wview/2 )
+Converted builtin - line 5: view_yview = y - view_hview/2 -> __view_set( e__VW.YView, 0, y - view_hview/2 )
+Converted description /// @description Set view location
+Converted builtin - line 4: view_wview -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 5: view_hview -> __view_get( e__VW.HView, 0 )
+
+Converting GML script: ${project_dir}\objects\entityEnemyTest_obj\Create_0.gml
+Converted description /// @description Test Enemy Init
+
+Converting GML script: ${project_dir}\objects\entityEnemyTest_obj\Alarm_0.gml
+Converted description /// @description Perform Player proximity test
+
+Converting GML script: ${project_dir}\objects\entityEnemyTest_obj\Step_0.gml
+Converted description /// @description Execute AI states
+
+Converting GML script: ${project_dir}\objects\projectileBase_obj\Create_0.gml
+Converted description /// @description Projectile Init
+
+Converting GML script: ${project_dir}\objects\projectileBase_obj\Destroy_0.gml
+Converted description /// @description Clean up the projectile instance
+
+Converting GML script: ${project_dir}\objects\projectileBase_obj\Step_2.gml
+Converted description /// @description Ancestor Events
+
+Converting GML script: ${project_dir}\objects\projectileFriendly_obj\Create_0.gml
+Converted description /// @description Fiendly projectile init
+
+Converting GML script: ${project_dir}\objects\projectileFriendly_obj\Step_2.gml
+Converted description /// @description Ancestor Events
+
+Converting GML script: ${project_dir}\objects\projectileEnemy_obj\Create_0.gml
+Converted description /// @description Enemy projectile init
+
+Converting GML script: ${project_dir}\objects\projectileEnemy_obj\Step_2.gml
+Converted description /// @description Ancestor Events
+
+Converting GML script: ${project_dir}\objects\projectileEnemyShadow_obj\Step_2.gml
+Converted description /// @description Collision Check
+
+Converting GML script: ${project_dir}\objects\projectileFriendlyShadow_obj\Step_2.gml
+Converted description /// @description Collision Check
+
+Converting GML script: ${project_dir}\objects\projectileTick_obj\Create_0.gml
+Converted description /// @description Projectile Init
+
+Converting GML script: ${project_dir}\objects\projectileTick_obj\Step_1.gml
+Converted description /// @description Init
+
+Converting GML script: ${project_dir}\objects\projectileTick_obj\Step_0.gml
+Converted description /// @description Ancestor Events
+
+Converting GML script: ${project_dir}\objects\projectileShotgunPellet_obj\Create_0.gml
+Converted description /// @description Init Shotgun Pellet
+
+Converting GML script: ${project_dir}\objects\projectileShotgunPellet_obj\Step_0.gml
+Converted description /// @description Ancestor Events
+
+Converting GML script: ${project_dir}\objects\projectileSpinner_obj\Create_0.gml
+Converted description /// @description Spinner init
+
+Converting GML script: ${project_dir}\objects\projectileHour_obj\Create_0.gml
+Converted description /// @description Projectile Init
+
+Converting GML script: ${project_dir}\objects\projectileHour_obj\Step_1.gml
+Converted description /// @description Init
+
+Converting GML script: ${project_dir}\objects\projectileBaddieBasic_obj\Step_2.gml
+Converted description /// @description Ancestor Events
+
+Converting GML script: ${project_dir}\objects\projectileBulletHighSpeedBase_obj\Create_0.gml
+Converted description /// @description Init
+
+Converting GML script: ${project_dir}\objects\projectileBulletHighSpeedBase_obj\Step_2.gml
+Converted description /// @description High-speed bullet collision
+
+Converting GML script: ${project_dir}\objects\projectileTest_obj\Step_0.gml
+Converted description /// @description Ancestor Events
+
+Converting GML script: ${project_dir}\objects\projectileHighSpeedInvisible_obj\Draw_0.gml
+Converted description /// @description Draw Projectile Line
+
+Converting GML script: ${project_dir}\objects\projectileLaser_obj\Create_0.gml
+Converted description /// @description Projectile Init
+
+Converting GML script: ${project_dir}\objects\projectileLaser_obj\Step_0.gml
+Converted description /// @description Ancestor Events
+
+Converting GML script: ${project_dir}\objects\projectileLaserBeamBase_obj\Create_0.gml
+Converted description /// @description Laser Beam Base Init
+
+Converting GML script: ${project_dir}\objects\projectileLaserBeamBase_obj\Step_2.gml
+Converted description /// @description Ancestor Events
+
+Converting GML script: ${project_dir}\objects\projectileLaserBeamBase_obj\Draw_0.gml
+Converted description /// @description Draw Glow
+
+Converting GML script: ${project_dir}\objects\interactibleShadow_obj\Draw_0.gml
+Converted description /// @description Execute interactibleBase Event
+
+Converting GML script: ${project_dir}\objects\interactibleBase_obj\Create_0.gml
+Converted description /// @description ineractibleBase_obj init
+
+Converting GML script: ${project_dir}\objects\interactibleBase_obj\Destroy_0.gml
+Converted description /// @description Ancestor events
+
+Converting GML script: ${project_dir}\objects\interactibleBase_obj\Step_1.gml
+Converted description /// @description Ancestor events
+
+Converting GML script: ${project_dir}\objects\interactibleBase_obj\Draw_0.gml
+Converted description /// @description Draw base image
+
+Converting GML script: ${project_dir}\objects\itemPassiveBase_obj\Create_0.gml
+Converted description /// @description Init
+
+Converting GML script: ${project_dir}\objects\passiveDrumMag_obj\Create_0.gml
+Converted description /// @description Init
+
+Converting GML script: ${project_dir}\objects\interactibleBasicWeapon_obj\Create_0.gml
+Converted description /// @description interactibleBasicWeapon_obj init
+
+Converting GML script: ${project_dir}\objects\interactibleWeaponSpinner_obj\Create_0.gml
+Converted description /// @description interactibleTest_obj init
+
+Converting GML script: ${project_dir}\objects\interactibleWeaponHeavyWeaponry_obj\Create_0.gml
+Converted description /// @description interactibleTest_obj init
+
+Converting GML script: ${project_dir}\objects\interactibleWeaponTheWatcher_obj\Create_0.gml
+Converted description /// @description interactibleWeaponTheWatcher_obj init
+
+Converting GML script: ${project_dir}\objects\interactibleWeaponShotgun_obj\Create_0.gml
+Converted description /// @description interactibleTest_obj init
+
+Converting GML script: ${project_dir}\objects\interactibleWeaponRoguishBlaster_obj\Create_0.gml
+Converted description /// @description Init
+
+Converting GML script: ${project_dir}\objects\interactibleWeaponRudimentaryLaser_obj\Create_0.gml
+Converted description /// @description Init
+
+Converting GML script: ${project_dir}\objects\interactibleWeaponMitosinNagant_obj\Create_0.gml
+Converted description /// @description Init
+
+Converting GML script: ${project_dir}\objects\interactibleWeaponM4A1_obj\Create_0.gml
+Converted description /// @description Init
+
+Converting GML script: ${project_dir}\objects\interactibleWeaponAN94_obj\Create_0.gml
+Converted description /// @description Init
+
+Converting GML script: ${project_dir}\objects\interactibleWeaponAA12_obj\Create_0.gml
+Converted description /// @description Init
+
+Converting GML script: ${project_dir}\objects\interactibleWeaponMA5B_obj\Create_0.gml
+Converted description /// @description Init
+
+Converting GML script: ${project_dir}\objects\entityWeaponBase_obj\Create_0.gml
+Converted description /// @description Weapon init
+
+Converting GML script: ${project_dir}\objects\entityWeaponBase_obj\Step_2.gml
+Converted description /// @description Ancestor events
+
+Converting GML script: ${project_dir}\objects\entityWeaponBase_obj\Other_7.gml
+Converted description /// @description Perform animation end actions
+
+Converting GML script: ${project_dir}\objects\entityWeaponBase_obj\Draw_73.gml
+Converted description /// @description Draw Empty Text
+
+Converting GML script: ${project_dir}\objects\entityWeaponTest_obj\Create_0.gml
+Converted description /// @description Init
+
+Converting GML script: ${project_dir}\objects\entityWeaponShotgun_obj\Create_0.gml
+Converted description /// @description Init
+
+Converting GML script: ${project_dir}\objects\entityWeaponAA12_obj\Create_0.gml
+Converted description /// @description Init
+
+Converting GML script: ${project_dir}\objects\entityWeaponSpinner_obj\Create_0.gml
+Converted description /// @description Init
+
+Converting GML script: ${project_dir}\objects\entityWeaponHeavyWeaponry_obj\Create_0.gml
+Converted description /// @description Init
+
+Converting GML script: ${project_dir}\objects\entityWeaponHeavyWeaponry_obj\Step_2.gml
+Converted description /// @description Ancestor Events
+
+Converting GML script: ${project_dir}\objects\entityWeaponM4A1_obj\Create_0.gml
+Converted description /// @description Init
+
+Converting GML script: ${project_dir}\objects\entityWeaponMA5B_obj\Create_0.gml
+Converted description /// @description Init
+
+Converting GML script: ${project_dir}\objects\entityWeaponAN94_obj\Create_0.gml
+Converted description /// @description Init
+
+Converting GML script: ${project_dir}\objects\entityWeaponMitosinNagant_obj\Create_0.gml
+Converted description /// @description Init
+
+Converting GML script: ${project_dir}\objects\entityWeaponRoguishBlaster_obj\Create_0.gml
+Converted description /// @description Init
+
+Converting GML script: ${project_dir}\objects\entityWeaponRoguishBlaster_obj\Step_2.gml
+Converted description /// @description Ancestor Events
+
+Converting GML script: ${project_dir}\objects\entityWeaponRudimentaryLaser_obj\Create_0.gml
+Converted description /// @description Init
+
+Converting GML script: ${project_dir}\objects\entityWeaponRudimentaryLaser_obj\Step_2.gml
+Converted description /// @description Ancestor Events
+
+Converting GML script: ${project_dir}\objects\entityWeaponBaddieTest_obj\Create_0.gml
+Converted description /// @description Init
+
+Converting GML script: ${project_dir}\objects\entityWeaponBaddieTest_obj\Step_2.gml
+Converted description /// @description Ancestor Events
+
+Converting GML script: ${project_dir}\objects\entityWeaponTheWatcher_obj\Create_0.gml
+Converted description /// @description Init
+
+Converting GML script: ${project_dir}\objects\entityWeaponTheWatcher_obj\Step_2.gml
+Converted description /// @description Ancestor Events
+
+Converting GML script: ${project_dir}\objects\server_obj\Create_0.gml
+Converted description /// @description server_obj Init
+
+Converting GML script: ${project_dir}\objects\serverLobby_obj\Other_68.gml
+Converted description /// @description Network Event
+
+Converting GML script: ${project_dir}\objects\clientBase_obj\Create_0.gml
+Converted description /// @description clientBase_obj init
+
+Converting GML script: ${project_dir}\objects\clientLobby_obj\Create_0.gml
+Converted description /// @description Lobby Client Init
+
+Converting GML script: ${project_dir}\objects\clientLobby_obj\Alarm_0.gml
+Converted description /// @description Send hello
+
+Converting GML script: ${project_dir}\objects\clientLobby_obj\Other_68.gml
+Converted description /// @description Accept message
+
+Converting GML script: ${project_dir}\objects\clientSession_obj\Create_0.gml
+Converted description /// @description Game session client
+
+Converting GML script: ${project_dir}\objects\clientSession_obj\Destroy_0.gml
+Converted description /// @description Destroy Session Client
+
+Converting GML script: ${project_dir}\objects\clientSession_obj\Alarm_0.gml
+Converted description /// @description Heartbeat
+
+Converting GML script: ${project_dir}\objects\clientSession_obj\Step_2.gml
+Converted description /// @description Send out all messages in the outbox
+
+Converting GML script: ${project_dir}\objects\clientSession_obj\Other_68.gml
+Converted description /// @description Accept message
+
+Converting GML script: ${project_dir}\objects\networkOutbox_obj\Create_0.gml
+Converted description /// @description networkOutbox_obj init
+
+Converting GML script: ${project_dir}\objects\networkOutbox_obj\Step_2.gml
+Converted description /// @description Send out all messages in the outbox
+
+Converting GML script: ${project_dir}\objects\ipProbe_obj\Create_0.gml
+Converted description /// @description ipProbe_obj Init
+
+Converting GML script: ${project_dir}\objects\damage_display_obj\Create_0.gml
+Converted description /// @description Init
+
+Converting GML script: ${project_dir}\objects\damage_display_obj\Alarm_0.gml
+Converted description /// @description Destroy self
+
+Converting GML script: ${project_dir}\objects\damage_display_obj\Draw_0.gml
+Converted description /// @description Draw damage value
+
+Converting GML script: ${project_dir}\objects\playerStatDisplay_obj\Create_0.gml
+Converted description /// @description Stat display init
+
+Converting GML script: ${project_dir}\objects\playerStatDisplay_obj\Step_2.gml
+Converted description /// @description Cache the drawing data
+
+Converting GML script: ${project_dir}\objects\playerStatDisplay_obj\Draw_64.gml
+Converted description /// @description Draw stat display
+
+Converting GML script: ${project_dir}\objects\projDummy_obj\Create_0.gml
+Converted description /// @description Create the attributes map
+
+Converting GML script: ${project_dir}\objects\projDummy_obj\Destroy_0.gml
+Converted description /// @description Clean up
+
+Converting GML script: ${project_dir}\objects\LoggerCloseListener_obj\Other_3.gml
+Converted description /// @description Close all open log files
+
+Converting GML script: ${project_dir}\objects\gui_element_obj\Create_0.gml
+Converted description /// @description GUI element init
+
+Converting GML script: ${project_dir}\objects\gui_element_obj\Step_2.gml
+Converted description /// @description Obscure logic
+
+Converting GML script: ${project_dir}\objects\gui_element_obj\Step_0.gml
+Converted description /// @description Container-based relative positioning
+
+Converting GML script: ${project_dir}\objects\gui_element_obj\Draw_64.gml
+Converted description /// @description Perform draw from the drawScript
+
+Converting GML script: ${project_dir}\objects\uiButtonBase_obj\Step_2.gml
+Converted description /// @description Set rect_width and rect_height and borders
+
+Converting GML script: ${project_dir}\objects\uiButtonCreateGame_obj\Create_0.gml
+Converted description /// @description uiButtonCreateGame init
+
+Converting GML script: ${project_dir}\objects\uiButtonJoinGame_obj\Create_0.gml
+Converted description /// @description Join Game Button init
+
+Converting GML script: ${project_dir}\objects\ui_cursor_obj\Create_0.gml
+Converted builtin - line 9: view_wview -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 9: view_wport -> __view_get( e__VW.WPort, 0 )
+Converted description /// @description Cursor GUI Obj select
+
+Converting GML script: ${project_dir}\objects\ui_cursor_obj\Step_2.gml
+Converted description /// @description Destroy if there's no ui elements to interact with
+
+Converting GML script: ${project_dir}\objects\ui_cursor_obj\Step_1.gml
+Converted description /// @description Position
+
+Converting GML script: ${project_dir}\objects\list_section_header_obj\Create_0.gml
+Converted description /// @description Section header init
+
+Converting GML script: ${project_dir}\objects\list_section_header_obj\Step_1.gml
+Converted description /// @description Init
+
+Converting GML script: ${project_dir}\objects\list_view_obj\Create_0.gml
+Converted builtin - line 38: view_wport -> __view_get( e__VW.WPort, 0 )
+
+Converting GML script: ${project_dir}\objects\list_view_obj\Destroy_0.gml
+Converted description /// @description Destroy resources
+
+Converting GML script: ${project_dir}\objects\list_view_obj\Step_2.gml
+Converted description /// @description Inherited Event and relative positioning
+
+Converting GML script: ${project_dir}\objects\list_view_obj\Step_1.gml
+Converted description /// @description Control title draw
+
+Converting GML script: ${project_dir}\objects\list_view_obj\Step_0.gml
+Converted description /// @description Arrange items in list view
+
+Converting GML script: ${project_dir}\objects\list_view_obj\Draw_64.gml
+Converted description /// @description Draw List
+
+Converting GML script: ${project_dir}\objects\listView_obj\Create_0.gml
+Converted description /// @description listView_obj init
+
+Converting GML script: ${project_dir}\objects\listView_obj\Step_2.gml
+Converted description /// @description Inherited Events
+
+Converting GML script: ${project_dir}\objects\listView_obj\Step_0.gml
+Converted description /// @description Inherited Events
+
+Converting GML script: ${project_dir}\objects\listGroup_obj\Create_0.gml
+Converted description /// @description listGroup init
+
+Converting GML script: ${project_dir}\objects\listItem_obj\Create_0.gml
+Converted description /// @description listItem init
+
+Converting GML script: ${project_dir}\objects\listItem_obj\Destroy_0.gml
+Converted description /// @description Destroy list item
+
+Converting GML script: ${project_dir}\objects\ui_container_obj\Create_0.gml
+Converted description /// @description Container init
+
+Converting GML script: ${project_dir}\objects\ui_container_obj\Step_0.gml
+Converted description /// @description Inherited Event
+
+Converting GML script: ${project_dir}\objects\ui_container_obj\Draw_0.gml
+Converted description /// @description Draw Script Stuff
+
+Converting GML script: ${project_dir}\objects\uiContainerGameSession_obj\Create_0.gml
+Converted description /// @description Game Session Container Create
+
+Converting GML script: ${project_dir}\objects\uiLabel_obj\Step_2.gml
+Converted description /// @description Set label width and heigh
+
+Converting GML script: ${project_dir}\objects\gameController_obj\Step_2.gml
+Converted description /// @description Monitor mouse position
+
+Converting GML script: ${project_dir}\objects\gameController_obj\Step_1.gml
+Converted description /// @description Monitor Mouse Position
+
+Converting GML script: ${project_dir}\objects\gameController_obj\Draw_64.gml
+Converted description /// @description Draw FPS
+
+Converting GML script: ${project_dir}\objects\frameSpeedModCalculator_obj\Create_0.gml
+Converted description /// @description Frame Speed Mod Calculator Init
+
+Converting GML script: ${project_dir}\objects\environmentWall_obj\Create_0.gml
+Converted description /// @description Wall init
+
+Converting GML script: ${project_dir}\objects\environmentDoor_obj\Step_2.gml
+Converted description /// @description Handle door closing
+
+Converting GML script: ${project_dir}\objects\impactBase_obj\Create_0.gml
+Converted description /// @description impactBase_obj init
+
+Converting GML script: ${project_dir}\objects\impactBase_obj\Other_7.gml
+Converted description /// @description Destroy at the end of the animation
+
+Converting GML script: ${project_dir}\objects\casing_obj\Create_0.gml
+Converted description /// @description Casing init
+
+Converting GML script: ${project_dir}\objects\casing_obj\Step_2.gml
+Converted description /// @description Ancestor events
+
+Converting GML script: ${project_dir}\objects\casingShotgun_obj\Create_0.gml
+Converted description /// @description Casing init
+
+Converting GML script: ${project_dir}\objects\casingShotgun_obj\Step_2.gml
+Converted description /// @description Ancestor events
+
+Converting GML script: ${project_dir}\objects\clip_obj\Create_0.gml
+Converted description /// @description Casing init
+
+Converting GML script: ${project_dir}\objects\backgroundWorker_obj\Create_0.gml
+Converted description /// @description Init
+
+Converting GML script: ${project_dir}\objects\backgroundWorker_obj\Destroy_0.gml
+Converted description /// @description Run the terminate script
+
+Converting GML script: ${project_dir}\objects\backgroundWorker_obj\Step_0.gml
+Converted description /// @description Perform background script
+
+Converting GML script: ${project_dir}\objects\EventTest\Create_0.gml
+Converted description /// @description -///Create 0
+
+Converting GML script: ${project_dir}\objects\EventTest\Destroy_0.gml
+Converted description /// @description -///Destroy 0
+
+Converting GML script: ${project_dir}\objects\EventTest\Alarm_3.gml
+Converted description /// @description -///Alarm 3 - 0
+
+Converting GML script: ${project_dir}\objects\EventTest\Alarm_2.gml
+Converted description /// @description -///Alarm 2 - 0
+
+Converting GML script: ${project_dir}\objects\EventTest\Alarm_1.gml
+Converted description /// @description -///Alarm 1 - 0
+
+Converting GML script: ${project_dir}\objects\EventTest\Alarm_0.gml
+Converted description /// @description -///Alarm 0 - 0
+
+Converting GML script: ${project_dir}\objects\EventTest\Step_2.gml
+Converted description /// @description -///EndStep 0
+
+Converting GML script: ${project_dir}\objects\EventTest\Step_1.gml
+Converted description /// @description -///BeginStep 0
+
+Converting GML script: ${project_dir}\objects\EventTest\Step_0.gml
+Converted description /// @description -///Step 0
+
+Converting GML script: ${project_dir}\objects\EventTest\Collision_0ad07317-e6fc-4b6d-9d0c-17cf8030cbe4.gml
+Converted description /// @description -///Collision with entity_obj 0
+
+Converting GML script: ${project_dir}\objects\EventTest\Keyboard_123.gml
+Converted description /// @description -///Keyboard F12
+
+Converting GML script: ${project_dir}\objects\EventTest\Keyboard_112.gml
+Converted description /// @description -///Keyboard F1
+
+Converting GML script: ${project_dir}\objects\EventTest\Keyboard_111.gml
+Converted description /// @description -///Keypad /
+
+Converting GML script: ${project_dir}\objects\EventTest\Keyboard_110.gml
+Converted description /// @description -///Keypad .
+
+Converting GML script: ${project_dir}\objects\EventTest\Keyboard_109.gml
+Converted description /// @description -///Keypad -
+
+Converting GML script: ${project_dir}\objects\EventTest\Keyboard_107.gml
+Converted description /// @description -///Keypad +
+
+Converting GML script: ${project_dir}\objects\EventTest\Keyboard_106.gml
+Converted description /// @description -///Keypad *
+
+Converting GML script: ${project_dir}\objects\EventTest\Keyboard_105.gml
+Converted description /// @description -///Keypad 9
+
+Converting GML script: ${project_dir}\objects\EventTest\Keyboard_96.gml
+Converted description /// @description -///Keypad 0
+
+Converting GML script: ${project_dir}\objects\EventTest\Keyboard_90.gml
+Converted description /// @description -///Keyboard Z-key
+
+Converting GML script: ${project_dir}\objects\EventTest\Keyboard_65.gml
+Converted description /// @description -///Keyboard A key
+
+Converting GML script: ${project_dir}\objects\EventTest\Keyboard_57.gml
+Converted description /// @description -///Keyboard 9 key
+
+Converting GML script: ${project_dir}\objects\EventTest\Keyboard_48.gml
+Converted description /// @description -///Keyboard 0 key
+
+Converting GML script: ${project_dir}\objects\EventTest\Keyboard_46.gml
+Converted description /// @description -///Keyboard Delete
+
+Converting GML script: ${project_dir}\objects\EventTest\Keyboard_45.gml
+Converted description /// @description -///Keyboard Insert
+
+Converting GML script: ${project_dir}\objects\EventTest\Keyboard_40.gml
+Converted description /// @description -///Keyboard Down 0
+
+Converting GML script: ${project_dir}\objects\EventTest\Keyboard_39.gml
+Converted description /// @description -///Keyboard Right 0
+
+Converting GML script: ${project_dir}\objects\EventTest\Keyboard_38.gml
+Converted description /// @description -///Keyboard Up 0
+
+Converting GML script: ${project_dir}\objects\EventTest\Keyboard_37.gml
+Converted description /// @description -///Keyboard Left 0
+
+Converting GML script: ${project_dir}\objects\EventTest\Keyboard_36.gml
+Converted description /// @description -///Keyboard Home
+
+Converting GML script: ${project_dir}\objects\EventTest\Keyboard_35.gml
+Converted description /// @description -///Keyboard End
+
+Converting GML script: ${project_dir}\objects\EventTest\Keyboard_34.gml
+Converted description /// @description -///Keyboard Page Down
+
+Converting GML script: ${project_dir}\objects\EventTest\Keyboard_33.gml
+Converted description /// @description -///Keyboard Page Up
+
+Converting GML script: ${project_dir}\objects\EventTest\Keyboard_32.gml
+Converted description /// @description -///Keyboard Space
+
+Converting GML script: ${project_dir}\objects\EventTest\Keyboard_27.gml
+Converted description /// @description -///Keyboard Escape
+
+Converting GML script: ${project_dir}\objects\EventTest\Keyboard_18.gml
+Converted description /// @description -///Keyboard Alt
+
+Converting GML script: ${project_dir}\objects\EventTest\Keyboard_17.gml
+Converted description /// @description -///Keyboard Ctrl
+
+Converting GML script: ${project_dir}\objects\EventTest\Keyboard_16.gml
+Converted description /// @description -///Keyboard Shift
+
+Converting GML script: ${project_dir}\objects\EventTest\Keyboard_13.gml
+Converted description /// @description -///Keyboard Enter
+
+Converting GML script: ${project_dir}\objects\EventTest\Keyboard_8.gml
+Converted description /// @description -///Keyboard Backspace
+
+Converting GML script: ${project_dir}\objects\EventTest\Keyboard_1.gml
+Converted description /// @description -///Keyboard Any Key
+
+Converting GML script: ${project_dir}\objects\EventTest\Keyboard_0.gml
+Converted description /// @description -///Keyboard no key
+
+Converting GML script: ${project_dir}\objects\EventTest\Mouse_61.gml
+Converted description /// @description -///Mouse Wheel Down
+
+Converting GML script: ${project_dir}\objects\EventTest\Mouse_60.gml
+Converted description /// @description -///Mouse Wheel Up
+
+Converting GML script: ${project_dir}\objects\EventTest\Mouse_58.gml
+Converted description /// @description -///Global Middle Released
+
+Converting GML script: ${project_dir}\objects\EventTest\Mouse_57.gml
+Converted description /// @description -///Global Right Released
+
+Converting GML script: ${project_dir}\objects\EventTest\Mouse_56.gml
+Converted description /// @description -///Global Left Released
+
+Converting GML script: ${project_dir}\objects\EventTest\Mouse_55.gml
+Converted description /// @description -///Global Middle Pressed
+
+Converting GML script: ${project_dir}\objects\EventTest\Mouse_54.gml
+Converted description /// @description -///Global Right Pressed
+
+Converting GML script: ${project_dir}\objects\EventTest\Mouse_53.gml
+Converted description /// @description -///Global Left Pressed
+
+Converting GML script: ${project_dir}\objects\EventTest\Mouse_52.gml
+Converted description /// @description -///Global Middle Button
+
+Converting GML script: ${project_dir}\objects\EventTest\Mouse_51.gml
+Converted description /// @description -///Global Right Button
+
+Converting GML script: ${project_dir}\objects\EventTest\Mouse_50.gml
+Converted description /// @description -///Global Left Button
+
+Converting GML script: ${project_dir}\objects\EventTest\Mouse_11.gml
+Converted description /// @description -///Mouse Leave
+
+Converting GML script: ${project_dir}\objects\EventTest\Mouse_10.gml
+Converted description /// @description -///Mouse Enter
+
+Converting GML script: ${project_dir}\objects\EventTest\Mouse_9.gml
+Converted description /// @description -///Middle Released
+
+Converting GML script: ${project_dir}\objects\EventTest\Mouse_8.gml
+Converted description /// @description -///Right Released
+
+Converting GML script: ${project_dir}\objects\EventTest\Mouse_7.gml
+Converted description /// @description -///Left Released 0
+
+Converting GML script: ${project_dir}\objects\EventTest\Mouse_6.gml
+Converted description /// @description -///Middle Pressed 0
+
+Converting GML script: ${project_dir}\objects\EventTest\Mouse_5.gml
+Converted description /// @description -///Right Pressed 0
+
+Converting GML script: ${project_dir}\objects\EventTest\Mouse_4.gml
+Converted description /// @description -///Left Pressed 0
+
+Converting GML script: ${project_dir}\objects\EventTest\Mouse_3.gml
+Converted description /// @description -///No Button 0
+
+Converting GML script: ${project_dir}\objects\EventTest\Mouse_2.gml
+Converted description /// @description -///Middle Mouse Button 0
+
+Converting GML script: ${project_dir}\objects\EventTest\Mouse_1.gml
+Converted description /// @description -///Right Mouse Button 0
+
+Converting GML script: ${project_dir}\objects\EventTest\Mouse_0.gml
+Converted description /// @description -///Left Mouse Button 0
+
+Converting GML script: ${project_dir}\objects\EventTest\Other_75.gml
+Converted description /// @description -///System
+
+Converting GML script: ${project_dir}\objects\EventTest\Other_74.gml
+Converted description /// @description -///Audio Playback
+
+Converting GML script: ${project_dir}\objects\EventTest\Other_73.gml
+Converted description /// @description -///Audio Recording
+
+Converting GML script: ${project_dir}\objects\EventTest\Other_72.gml
+Converted description /// @description -///Save / Load
+
+Converting GML script: ${project_dir}\objects\EventTest\Other_71.gml
+Converted description /// @description -///Push Notification
+
+Converting GML script: ${project_dir}\objects\EventTest\Other_70.gml
+Converted description /// @description -///Social
+
+Converting GML script: ${project_dir}\objects\EventTest\Other_69.gml
+Converted description /// @description -///Steam 0
+
+Converting GML script: ${project_dir}\objects\EventTest\Other_68.gml
+Converted description /// @description -///Networking 0
+
+Converting GML script: ${project_dir}\objects\EventTest\Other_67.gml
+Converted description /// @description -///Cloud 0
+
+Converting GML script: ${project_dir}\objects\EventTest\Other_66.gml
+Converted description /// @description -///IAP 0
+
+Converting GML script: ${project_dir}\objects\EventTest\Other_63.gml
+Converted description /// @description -///Dialog 0
+
+Converting GML script: ${project_dir}\objects\EventTest\Other_62.gml
+Converted description /// @description -///HTTP 0
+
+Converting GML script: ${project_dir}\objects\EventTest\Other_60.gml
+Converted description /// @description -///Image Loaded 0
+
+Converting GML script: ${project_dir}\objects\EventTest\Other_59.gml
+Converted description /// @description -///Animation Event
+
+Converting GML script: ${project_dir}\objects\EventTest\Other_58.gml
+Converted description /// @description -///Animation Update
+
+Converting GML script: ${project_dir}\objects\EventTest\Other_57.gml
+Converted description /// @description -///Boundary View 7
+
+Converting GML script: ${project_dir}\objects\EventTest\Other_50.gml
+Converted description /// @description -///Boundary View 0
+
+Converting GML script: ${project_dir}\objects\EventTest\Other_47.gml
+Converted description /// @description -///Outside View 7
+
+Converting GML script: ${project_dir}\objects\EventTest\Other_41.gml
+Converted description /// @description -///Outside View 1
+
+Converting GML script: ${project_dir}\objects\EventTest\Other_40.gml
+Converted description /// @description -///Outside View 0
+
+Converting GML script: ${project_dir}\objects\EventTest\Other_25.gml
+Converted description /// @description -///User Defined 15
+
+Converting GML script: ${project_dir}\objects\EventTest\Other_24.gml
+Converted description /// @description -///User Defined 14
+
+Converting GML script: ${project_dir}\objects\EventTest\Other_10.gml
+Converted description /// @description -///User Defined 0
+
+Converting GML script: ${project_dir}\objects\EventTest\Other_9.gml
+Converted description /// @description -///No More Health
+
+Converting GML script: ${project_dir}\objects\EventTest\Other_8.gml
+Converted description /// @description -///End Of Path
+
+Converting GML script: ${project_dir}\objects\EventTest\Other_7.gml
+Converted description /// @description -///Animation End
+
+Converting GML script: ${project_dir}\objects\EventTest\Other_6.gml
+Converted description /// @description -///No More Lives
+
+Converting GML script: ${project_dir}\objects\EventTest\Other_5.gml
+Converted description /// @description -///Room End
+
+Converting GML script: ${project_dir}\objects\EventTest\Other_4.gml
+Converted description /// @description -///Room Start
+
+Converting GML script: ${project_dir}\objects\EventTest\Other_3.gml
+Converted description /// @description -///Game End
+
+Converting GML script: ${project_dir}\objects\EventTest\Other_2.gml
+Converted description /// @description -///Game Start
+
+Converting GML script: ${project_dir}\objects\EventTest\Other_1.gml
+Converted description /// @description -///Intersect Boundary 0
+
+Converting GML script: ${project_dir}\objects\EventTest\Other_0.gml
+Converted description /// @description -///Outside Room 0
+
+Converting GML script: ${project_dir}\objects\EventTest\Draw_77.gml
+Converted description /// @description -///Post Draw 0
+
+Converting GML script: ${project_dir}\objects\EventTest\Draw_76.gml
+Converted description /// @description -///Pre Draw 0
+
+Converting GML script: ${project_dir}\objects\EventTest\Draw_75.gml
+Converted description /// @description -///Draw GUI End 0
+
+Converting GML script: ${project_dir}\objects\EventTest\Draw_74.gml
+Converted description /// @description -///Draw GUI Begin 0
+
+Converting GML script: ${project_dir}\objects\EventTest\Draw_73.gml
+Converted description /// @description -///Draw End 0
+
+Converting GML script: ${project_dir}\objects\EventTest\Draw_72.gml
+Converted description /// @description -///Draw Begin 0
+
+Converting GML script: ${project_dir}\objects\EventTest\Draw_65.gml
+Converted description /// @description -///Resize 0
+
+Converting GML script: ${project_dir}\objects\EventTest\Draw_64.gml
+Converted description /// @description -///Draw GUI 0
+
+Converting GML script: ${project_dir}\objects\EventTest\Draw_0.gml
+Converted description /// @description -///Draw 0
+
+Converting GML script: ${project_dir}\objects\EventTest\KeyPress_40.gml
+Converted description /// @description -///Keyboard Press Down 0
+
+Converting GML script: ${project_dir}\objects\EventTest\KeyPress_39.gml
+Converted description /// @description -///Keyboard Press Right 0
+
+Converting GML script: ${project_dir}\objects\EventTest\KeyPress_38.gml
+Converted description /// @description -///Keyboard Press Up 0
+
+Converting GML script: ${project_dir}\objects\EventTest\KeyPress_37.gml
+Converted description /// @description -///Keyboard Press Left 0
+
+Converting GML script: ${project_dir}\objects\EventTest\KeyRelease_40.gml
+Converted description /// @description -///Keyboard Release Down 0
+
+Converting GML script: ${project_dir}\objects\EventTest\KeyRelease_39.gml
+Converted description /// @description -///Keyboard Release Right 0
+
+Converting GML script: ${project_dir}\objects\EventTest\KeyRelease_38.gml
+Converted description /// @description -///Keyboard Release Up 0
+
+Converting GML script: ${project_dir}\objects\EventTest\KeyRelease_37.gml
+Converted description /// @description -///Keyboard Release Left 0
+
+Converting GML script: ${project_dir}\objects\Editable_obj\Create_0.gml
+Converted description /// @description Editable Init
+
+Converting GML script: ${project_dir}\objects\Editable_obj\Draw_76.gml
+Converted description /// @description Buffer Rectangle Draw Data
+
+Converting GML script: ${project_dir}\objects\Editable_obj\Draw_73.gml
+Converted description /// @description Draw Selection Graphics
+
+Converting GML script: ${project_dir}\objects\Editor_obj\Create_0.gml
+Converted description /// @description Editor Init
+
+Converting GML script: ${project_dir}\objects\Editor_obj\Step_2.gml
+Converted description /// @description Select editable objects
+
+Converting GML script: ${project_dir}\objects\Editor_obj\Mouse_4.gml
+Converted description /// @description Select editable objects
+
+Converting GML script: ${project_dir}\objects\Editor_obj\Mouse_0.gml
+Converted description /// @description Select editable objects
+
+Converting GML script: ${project_dir}\objects\Editor_obj\Draw_73.gml
+Converted description /// @description Draw Selection Graphics on selected instances
+
+Converting GML script: ${project_dir}\objects\console_obj\Create_0.gml
+Converted description /// @description Console Init
+
+Converting GML script: ${project_dir}\objects\console_obj\Step_2.gml
+Converted builtin - line 5: view_wview -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 15: view_wview -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 10: view_hview -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 20: view_hview -> __view_get( e__VW.HView, 0 )
+Converted description /// @description Positioning
+
+Converting GML script: ${project_dir}\objects\console_obj\Step_1.gml
+Converted description /// @description Check for console activation
+
+Converting GML script: ${project_dir}\objects\console_obj\Step_0.gml
+Converted description /// @description Handle typing
+
+Converting GML script: ${project_dir}\objects\console_obj\Keyboard_1.gml
+Converted description /// @description Handle Typing
+
+Converting GML script: ${project_dir}\objects\console_obj\Draw_64.gml
+Converted description /// @description Draw console text
+
+Converting GML script: ${project_dir}\objects\console_obj\Draw_0.gml
+Converted description /// @description Empty Draw Event
+
+Converting GML script: ${project_dir}\objects\FormsInputController_obj\Create_0.gml
+Converted description /// @description Forms Input Controller Init
+
+Converting GML script: ${project_dir}\objects\FormsInputController_obj\Step_1.gml
+Converted builtin - line 2: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 3: view_yview -> __view_get( e__VW.YView, 0 )
+Converted description /// @description Identify which element the mouse is over
+
+Converting GML script: ${project_dir}\objects\FormsElementBase_obj\Create_0.gml
+Converted builtin - line 4: view_wview -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 4: view_hview -> __view_get( e__VW.HView, 0 )
+Converted description /// @description Base Forms Element Init
+
+Converting GML script: ${project_dir}\objects\FormsElementBase_obj\Step_2.gml
+Converted builtin - line 15: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 30: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 15: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 76: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 249: view_wview -> __view_get( e__VW.WView, 0 )
+Converted description /// @description Control Resizing
+
+Converting GML script: ${project_dir}\objects\FormsElementBase_obj\Draw_64.gml
+Converted description /// @description Draw self if this element has no parent
+
+Converting GML script: ${project_dir}\objects\FormsPanelTest_obj\Create_0.gml
+Converted description /// @description FormsPanel Init
+
+Converting GML script: ${project_dir}\objects\FormsPanelWithinPanelTest_obj\Create_0.gml
+Converted description /// @description FormsPanel Init
+
+Converting GML script: ${project_dir}\objects\FormsPanelWithinPanelWithinPanelTest_obj\Create_0.gml
+Converted description /// @description FormsPanel Init
+
+Converting GML script: ${project_dir}\objects\FormsTextDisplayBase_obj\Create_0.gml
+Converted description /// @description Text Display Base Init
+
+Converting GML script: ${project_dir}\objects\FormsTextDisplayBase_obj\Step_1.gml
+Converted description /// @description Peform fitting actions
+
+Converting GML script: ${project_dir}\objects\HitSpine_obj\Create_0.gml
+Converted description /// @description HitSpine Init
+
+Converting GML script: ${project_dir}\objects\HitSpine_obj\Draw_0.gml
+Converted description /// @description Draw (for debug purposes)/// @param for debug purposes
+
+macOS icon ${options_dir}\mac\icons\icon512.png written out as 32-bit
+Windows NSIS Installer Script has been set to default due to changes in GameMaker Studio 2
+Windows NSIS Installer Script has been set to default due to changes in GameMaker Studio 2
+Windows NSIS Installer Script has been set to default due to changes in GameMaker Studio 2
+Game speed set to 60
+Added compatibility script 'd3d/d3d_set_fog.gml'
+Added compatibility script 'instance/instance_create.gml'
+Added compatibility script 'object/object_get_depth.gml'
+Added compatibility script 'view/__view_get.gml'
+Added compatibility script 'view/__view_set.gml'
+Added compatibility script 'view/__view_set_internal.gml'
+Added compatibility script 'd3d/__init_d3d.gml'
+Added compatibility script 'view/__init_view.gml'
+Added compatibility script '__init_global.gml'
+Added compatibility script '__global_object_depths.gml'

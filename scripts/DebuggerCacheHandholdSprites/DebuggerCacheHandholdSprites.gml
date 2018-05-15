@@ -1,0 +1,1 @@
+BackgroundWorkerCreate_scr(BackgroundIdentifyHandHoldSprites_scr);
